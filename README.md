@@ -3,6 +3,10 @@ This repository will serve as a knowledge base for everything I've learned about
 
 I've seen alot of posts on the FastMile variant manufactured by Nokia (a.k.a the Trashcan) but not much on the KVD21 from Arcadyan. I'm entirely still a novice at hardware hacking and will most likely end up bricking this thing but I work in the back of a T-Mobile doing repairs and get abandoned or devices for recycle all the time and want to try my hand at hardware hacking the exotic and uncommon devices I come across in my field of work.
 
+Basic information and a device usage guide can be found here:
+
+https://www.t-mobile.com/support/devices/get-to-know-your-arcadyan-kvd21-gateway
+
 The Teardown:
 
 The tear down of the device was quite easy after I figured out the right ammount of pressure to apply to the area holding the plastic clips together without breaking the clips.
@@ -15,6 +19,19 @@ With the cover off we can see an array of antennas and a screen with some button
 
 ![IMG_20220518_210526](https://user-images.githubusercontent.com/92492482/175694199-8049059e-754c-4587-a53c-4880693781cb.png)
 
+
 We can also see there is what looks like a UART port on the edge of one of the central PCBs.
 
 ![IMG_20220518_210514](https://user-images.githubusercontent.com/92492482/175694322-6ba9bcff-d275-49ff-9e5e-a8e5f327c623.png)
+
+
+
+Using a multimeter to monitor voltages while the device is booting I can see the pinout is as follows:
+
+
+Pin    | Voltage | Stable/Fluctuating Voltage | Pin Type
+-------|---------|----------------------------|---------
+BLUE   | 0.4v    | ~                          | UNKNOWN
+GREEN  | Ov      | -                          | TX
+YELLOW | 1.8v    | ~                          | RX
+ORANGE | 0v      | -                          | GND
