@@ -7,8 +7,6 @@ Basic information and a device usage guide can be found here:
 
 https://www.t-mobile.com/support/devices/get-to-know-your-arcadyan-kvd21-gateway
 
-The Teardown:
-
 The tear down of the device was quite easy after I figured out the right ammount of pressure to apply to the area holding the plastic clips together without breaking the clips.
 
 With the cover off we can see an array of antennas and a screen with some buttons surrounding two boards that are sandwiched together.
@@ -18,7 +16,6 @@ With the cover off we can see an array of antennas and a screen with some button
 ![IMG_20220518_210413](https://user-images.githubusercontent.com/92492482/175694122-59f8567f-6b46-49eb-967e-7f1ea05e275c.png)
 
 ![IMG_20220518_210526](https://user-images.githubusercontent.com/92492482/175694199-8049059e-754c-4587-a53c-4880693781cb.png)
-
 
 We can also see there is what looks like a UART port on the edge of one of the central PCBs.
 
@@ -39,4 +36,10 @@ GREEN  | 0v      | Stable       | TX       | D1
 YELLOW | 1.8v    | Unstable     | RX       | D0
 ORANGE | 0v      | Stable       | GND      | GND
 
-When we open up a tty serial on the FT232H and power the device on we get what appears to be a bootloader log that stops outputting shortly after the linux kernel starts. We cannot transmit over this tty but some valuable information was obtained from the bootloader log (which will be available in this repo)
+When we open up a tty serial on the FT232H and power the device on we get what appears to be a bootloader log that stops outputting shortly after the linux kernel starts. We cannot transmit over this tty but some valuable information was obtained from the bootloader log.
+
+We also have some interesting bits of data at the start of the log that don't seem to be garbage from an improper baud rate or something similar. 
+![Screenshot from 2022-06-25 13-09-12](https://user-images.githubusercontent.com/92492482/175783825-1150fc69-e7e5-468d-9000-4a8c082a1fe7.png)
+
+When the data bits were separated into a bin file and opened in a hex editor like xxd we see that there are bits of 0x00 0xBD 0xBF and 0xEF following a brief preamble of 0x10000000.
+![Screenshot from 2022-06-25 12-58-22](https://user-images.githubusercontent.com/92492482/175783834-2c74eb9d-65cc-415e-b867-5cb8bc32fc76.png)
