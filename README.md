@@ -45,7 +45,6 @@ When the data was saved as a binary file and opened in a hex editor like xxd we 
 ![Screenshot from 2022-06-25 12-58-22](https://user-images.githubusercontent.com/92492482/175783834-2c74eb9d-65cc-415e-b867-5cb8bc32fc76.png)
 
 Moving on to the actual bootloader log we can see a bootargs entry that provides us with several key pieces of info:
-
-The gateway is running Android and we can use ADB once we know how to get the gateway into fastboot or download mode.
-The modem processor is a Mediatek MT6890/MT6880 T75 based modem SoC package and we will verify this and narrow down the SoC package vendor during a more complete teardown later on.
-SELinux is set to permissive. 🤣 This means once we have shell access on our gateway, priveledge escalation should be trivial despite Android being the target OS.
+*The gateway is running Android and we can use ADB once we know how to get the gateway into fastboot or download mode.
+*The modem processor is a Mediatek MT6890/MT6880 T75 based modem SoC package and we will verify this and narrow down the SoC package vendor during a more complete teardown later on.
+*SELinux is set to permissive. 🤣 This means once we have shell access on our gateway, priveledge escalation should be trivial despite Android being the target OS.
