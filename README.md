@@ -35,3 +35,5 @@ BLUE   | 0.4v    | ~                          | UNKNOWN
 GREEN  | Ov      | -                          | TX
 YELLOW | 1.8v    | ~                          | RX
 ORANGE | 0v      | -                          | GND
+
+I soldered headers on to the 4 pin wells (while drunk so it looks horrible) and broke out my Adafruit FT232H. I have a special place in my heart for both Python and organizations that help empower women to learn/work in STEM so CircuitPython boards from Adafruit Industries is the natural choice.
