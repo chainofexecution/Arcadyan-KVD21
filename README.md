@@ -29,7 +29,7 @@ Using a multimeter to monitor voltages while the device is booting I can see the
 Pin    | Voltage | Voltage Flux | Pin Type
 -------|---------|--------------|---------
 BLUE   | 0.4v    | Unstable     | UNKNOWN
-GREEN  | Ov      | Stable       | TX
+GREEN  | 0v      | Stable       | TX
 YELLOW | 1.8v    | Unstable     | RX
 ORANGE | 0v      | Stable       | GND
 
