@@ -23,7 +23,7 @@ We can also see there is what looks like a UART port on the edge of one of the c
 
 Using a multimeter to monitor voltages while the device is booting I see there is 0.4v on the pin by the arrow symbol, followed by 0v, 1.8v, and 0v. The pin farthest from the arrow symbol was verrified to be a ground pin by checking for continuity between the pin and a ground plane. The two pins in the middle are fluctuating 1.8v on the left and 0v stable on the right which indicates TX/RX respectively.
 
-I soldered headers on to the 4 pin wells so I can get a reliable connection with an FTDI I fif this while drunk so it looks horrible. 😅
+I soldered headers on to the 4 pin wells so I can get a reliable connection with an FTDI I did this while drunk so it looks horrible. 😅
 ![IMG_20220623_124556](https://user-images.githubusercontent.com/92492482/175782661-2ce847a4-dfaa-4084-92ad-9449cf00d1ca.png)
 
 This is the pinout for the UART connection I used with my Adafruit FT232H:
