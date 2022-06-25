@@ -21,9 +21,9 @@ We can also see there is what looks like a UART port on the edge of one of the c
 
 ![IMG_20220518_210514](https://user-images.githubusercontent.com/92492482/175694322-6ba9bcff-d275-49ff-9e5e-a8e5f327c623.png)
 
-Using a multimeter to monitor voltages while the device is booting I see there is 0.4v on the pin by the arrow symbol, followed by 0v, 1.8v, and 0v. The pin farthest from the arrow symbol was verrified to be a ground pin by ckecking continuity between the pin and a ground plane. The two pins in the middle are 0v stable on the left and a fluctuating 1.8v on the right which indicates RX/TX respectively.
+Using a multimeter to monitor voltages while the device is booting I see there is 0.4v on the pin by the arrow symbol, followed by 0v, 1.8v, and 0v. The pin farthest from the arrow symbol was verrified to be a ground pin by checking for continuity between the pin and a ground plane. The two pins in the middle are fluctuating 1.8v on the left and 0v stable on the right which indicates TX/RX respectively.
 
-I soldered headers on to the 4 pin wells (while drunk so it looks horrible)
+I soldered headers on to the 4 pin wells so I can get a reliable connection with an FTDI I fif this while drunk so it looks horrible. 😅
 ![IMG_20220623_124556](https://user-images.githubusercontent.com/92492482/175782661-2ce847a4-dfaa-4084-92ad-9449cf00d1ca.png)
 
 This is the pinout for the UART connection I used with my Adafruit FT232H:
@@ -41,5 +41,11 @@ When we open up a tty serial on the FT232H and power the device on we get what a
 We also have some interesting bits of data at the start of the log that don't seem to be garbage from an improper baud rate or something similar. 
 ![Screenshot from 2022-06-25 13-09-12](https://user-images.githubusercontent.com/92492482/175783825-1150fc69-e7e5-468d-9000-4a8c082a1fe7.png)
 
-When the data bits were separated into a bin file and opened in a hex editor like xxd we see that there are bits of 0x00 0xBD 0xBF and 0xEF following a brief preamble of 0x10000000.
+When the data was saved as a binary file and opened in a hex editor like xxd we see that there are bits of 0x00 0xBD 0xBF and 0xEF following a brief preamble of 0x10000000.
 ![Screenshot from 2022-06-25 12-58-22](https://user-images.githubusercontent.com/92492482/175783834-2c74eb9d-65cc-415e-b867-5cb8bc32fc76.png)
+
+Moving on to the actual bootloader log we can see a bootargs entry that provides us with several key pieces of info:
+
+The gateway is running Android and we can use ADB once we know how to get the gateway into fastboot or download mode.
+The modem processor is a Mediatek MT6890/MT6880 T75 based modem SoC package and we will verify this and narrow down the SoC package vendor during a more complete teardown later on.
+SELinux is set to permissive. 🤣 This means once we have shell access on our gateway, priveledge escalation should be trivial despite Android being the target OS.
