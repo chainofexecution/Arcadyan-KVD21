@@ -24,18 +24,19 @@ We can also see there is what looks like a UART port on the edge of one of the c
 
 ![IMG_20220518_210514](https://user-images.githubusercontent.com/92492482/175694322-6ba9bcff-d275-49ff-9e5e-a8e5f327c623.png)
 
-Using a multimeter to monitor voltages while the device is booting I can see the pinout is as follows:
+Using a multimeter to monitor voltages while the device is booting I see there is 0.4v on the pin by the arrow symbol, followed by 0v, 1.8v, and 0v. The pin farthest from the arrow symbol was verrified to be a ground pin by ckecking continuity between the pin and a ground plane. The two pins in the middle are 0v stable on the left and a fluctuating 1.8v on the right which indicates RX/TX respectively.
 
-Pin    | Voltage | Voltage Flux | Pin Type
--------|---------|--------------|---------
-BLUE   | 0.4v    | Unstable     | UNKNOWN
-GREEN  | 0v      | Stable       | TX
-YELLOW | 1.8v    | Unstable     | RX
-ORANGE | 0v      | Stable       | GND
+I soldered headers on to the 4 pin wells (while drunk so it looks horrible)
+![IMG_20220623_124556](https://user-images.githubusercontent.com/92492482/175782661-2ce847a4-dfaa-4084-92ad-9449cf00d1ca.png)
 
-I soldered headers on to the 4 pin wells (while drunk so it looks horrible) and broke out my Adafruit FT232H. 
+This is the pinout for the UART connection I used with my Adafruit FT232H:
+![IMG_20220623_124604](https://user-images.githubusercontent.com/92492482/175780366-adf2a95a-f00f-496f-b88c-e02159b5c263.png)
 
-I have a special place in my heart for both Python and organizations that help empower women to learn/work in STEM so CircuitPython boards from Adafruit Industries is the natural choice.
+Pin    | Voltage | Voltage Flux | Pin Type | FT232H Pin
+-------|---------|--------------|----------|------------
+BLUE   | 0.4v    | Unstable     | UNKNOWN  | Unused
+GREEN  | 0v      | Stable       | TX       | D1
+YELLOW | 1.8v    | Unstable     | RX       | D0
+ORANGE | 0v      | Stable       | GND      | GND
 
-When we open up a tty serial on the FT232H and power the device on we get what appears to be a bootloader log that stops outputting shortly after the linux kernel starts. 
-We cannot type anything into this prompt but some valuable information was obtained from the bootloader log (which will be available in this repo)
+When we open up a tty serial on the FT232H and power the device on we get what appears to be a bootloader log that stops outputting shortly after the linux kernel starts. We cannot transmit over this tty but some valuable information was obtained from the bootloader log (which will be available in this repo)
