@@ -36,3 +36,6 @@ ORANGE | 0v      | Stable       | GND
 I soldered headers on to the 4 pin wells (while drunk so it looks horrible) and broke out my Adafruit FT232H. 
 
 I have a special place in my heart for both Python and organizations that help empower women to learn/work in STEM so CircuitPython boards from Adafruit Industries is the natural choice.
+
+When we open up a tty serial on the FT232H and power the device on we get what appears to be a bootloader log that stops outputting shortly after the linux kernel starts. 
+We cannot type anything into this prompt but some valuable information was obtained from the bootloader log (which will be available in this repo)
