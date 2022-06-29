@@ -23,10 +23,12 @@ We can also see there is what looks like a UART port on the edge of one of the c
 
 Using a multimeter to monitor voltages while the device is booting I see there is 0.4v on the pin by the arrow symbol, followed by 0v, 1.8v, and 0v. The pin farthest from the arrow symbol was verrified to be a ground pin by checking for continuity between the pin and a ground plane. The two pins in the middle are fluctuating 1.8v on the left and 0v stable on the right which indicates TX/RX respectively.
 
-I soldered headers on to the 4 pin wells so I can get a reliable connection with an FTDI I did this while drunk so it looks horrible. 😅
+I soldered headers on to the 4 pin wells so I can get a reliable connection with an FTDI I did this while drunk so it looks horrible. 😅 
+
 ![IMG_20220623_124556](https://user-images.githubusercontent.com/92492482/175782661-2ce847a4-dfaa-4084-92ad-9449cf00d1ca.png)
 
 This is the pinout for the UART connection I used with my Adafruit FT232H:
+
 ![IMG_20220623_124604](https://user-images.githubusercontent.com/92492482/175780366-adf2a95a-f00f-496f-b88c-e02159b5c263.png)
 
 Pin    | Voltage | Voltage Flux | Pin Type | FT232H Pin
@@ -39,12 +41,38 @@ ORANGE | 0v      | Stable       | GND      | GND
 When we open up a tty serial on the FT232H and power the device on we get what appears to be a bootloader log that stops outputting shortly after the linux kernel starts. We cannot transmit over this tty but some valuable information was obtained from the bootloader log.
 
 We also have some interesting bits of data at the start of the log that don't seem to be garbage from an improper baud rate or something similar. 
+
 ![Screenshot from 2022-06-25 13-09-12](https://user-images.githubusercontent.com/92492482/175783825-1150fc69-e7e5-468d-9000-4a8c082a1fe7.png)
 
-When the data was saved as a binary file and opened in a hex editor like xxd we see that there are bits of 0x00 0xBD 0xBF and 0xEF following a brief preamble of 0x10000000.
-![Screenshot from 2022-06-25 12-58-22](https://user-images.githubusercontent.com/92492482/175783834-2c74eb9d-65cc-415e-b867-5cb8bc32fc76.png)
+When the data was separated from the text and opened in a hex editor like xxd we see that there are bits of 0x80 and 0x00 following a brief preamble of 0x10000000 and 0xFF008800.
 
-Moving on to the actual bootloader log we can see a bootargs entry that provides us with several key pieces of info:
-* The gateway is running Android and we can use ADB once we know how to get the gateway into fastboot or download mode.
-* The modem processor is a Mediatek MT6890/MT6880 T75 based modem SoC package and we will verify this and narrow down the SoC package vendor during a more complete teardown later on.
-* SELinux is set to permissive. 🤣 This means once we have shell access on our gateway, priveledge escalation should be trivial despite Android being the target OS.
+![tty_start_bytes_xxd](https://user-images.githubusercontent.com/92492482/176510915-48377904-0353-4d13-9f69-6dc97c5970f6.png)
+
+Moving on to the actual bootloader log we can see a return string entry from  the function dump_cmdline() that provides us with several key pieces of info: 
+
+```
+void dump_cmdline(void *):75: cmdline len=395, str="
+  init=/etc/preinit
+  root=/dev/mmcblk0p28
+  rootwait
+  loglevel=8
+  androidboot.selinux=permissive
+  androidboot.hardware=mt6890
+  initcall_debug=1
+  page_owner=on
+  ramoops.mem_address=0x42880000
+  ramoops.mem_size=0xe0000
+  ramoops.pmsg_size=0x10000
+  ramoops.console_size=0x40000
+  mtk_printk_ctrl.disable_uart=0
+  bootslot=a
+  androidboot.hardware=mt6890
+  bootprof.pl_t=1384
+  bootprof.logo_t=0
+  bootprof.lk_t=7882
+"
+```
+
+* The gateway is running Android and we can use ADB once we know how to get the gateway into fastboot or download mode. 
+* The modem processor is a Mediatek MT6890/MT6880 T75 based modem SoC package and we will verify this and narrow down the SoC package vendor during a more complete teardown later on. 
+* SELinux is set to permissive. 🤣 This means once we have shell access on our gateway, priveledge escalation should be trivial despite Android being the target OS. 
