@@ -7,6 +7,14 @@ Basic information and a device usage guide can be found here:
 
 https://www.t-mobile.com/support/devices/get-to-know-your-arcadyan-kvd21-gateway
 
+I've decided to structure entries in this journal by date as I'm going to be working mostly on this project (with one or two backup projects started incase I fry my gateway) as I want something eye catching to show off when I go to DEFCON for the first time in August later this year and having root on a 5G femtocell sandwiched to a home internet router that is a major sales focus for a major US carrier would be eye catching to say the least.
+
+Due to the above mentioned change, and the fact that I have already done a good amount of research on the device prior to making this repository, there will be one large starting entry that will serve as the teardown and atleast two entries per week thereafter with a final long entry (provided I actually get root and dont fry the gateway) for the reception of the project following DEFCON 30.
+
+## The Teardown and Initial Research
+
+Also, all information, files, and other reference materials will eventually make their way on to the repository. The delay will be quite some time though as I have to ensure not to improperly disclose security vulnerabilities and purge personal or sensitive information from the materials and am currently extremely pressed for time so I can't spare much to reviewing material before publication.
+
 The tear down of the device was quite easy after I figured out the right ammount of pressure to apply to the area holding the plastic clips together without breaking the clips.
 
 With the cover off we can see an array of antennas and a screen with some buttons surrounding two boards that are sandwiched together.
@@ -76,3 +84,14 @@ void dump_cmdline(void *):75: cmdline len=395, str="
 * The gateway is running Android and we can use ADB once we know how to get the gateway into fastboot or download mode. 
 * The modem processor is a Mediatek MT6890/MT6880 T75 based modem SoC package and we will verify this and narrow down the SoC package vendor during a more complete teardown later on. 
 * SELinux is set to permissive. 🤣 This means once we have shell access on our gateway, priveledge escalation should be trivial despite Android being the target OS. 
+
+# Week 2 - Jun 29th - Trust But Verify
+
+We start off week two with a bootloader log from a UART port that told us the cpu was an mt6890.
+I looked up the model number and found out from a marketing handout that chip is actually part of an SoC package called the T75 marketed for 5G IoT.
+
+
+I wanted to tear down the device further anyways to thouroughly document the hardware so I will also verify the SoC package during the process.
+
+
+
