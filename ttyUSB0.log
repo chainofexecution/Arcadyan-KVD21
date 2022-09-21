@@ -1,0 +1,2609 @@
+Pll init start...
+Pll init Done!!
+mtcmos Start..
+efuse of id : hsmtop is 1
+mtcmos Done!
+PLL Preloader mode
+PLL Preloader mode ret 0
+#T#PLL=2
+bandgap filter: 0x1000C010 = 0x100F00
+pcie 0x112800c0 = 0xFC1
+#T#GPIO=0
+[DDR Reserve] DRM_DEBUG_CTL  (0x1000d030):          0x83F1
+[DDR Reserve] WDT_DEBUG_CTL_2(0x10007048):          0x2F
+[DDR Reserve] WDT_DEBUG_CTL_3(0x100070A8):          0x0
+[DDR Reserve] MTK_DRM_DEBUG_0_REG(0x1000D500):          0x8
+[DDR Reserve] DRAMC_AO_CHA + 0xD00(0x10230D00):          0x451C
+[DDR Reserve] DDRPHY_AO_CHA + 0x1520(0x10239520):          0x0
+[DDR Reserve] DRAMC_NAO_CHA + 0x80(0x10234080):          0x40060386
+[DDR Reserve] DRAMC_NAO_CHA + 0x84(0x10234084):          0x10000000
+[DDR Reserve] DRAMC_NAO_CHA + 0x88(0x10234088):          0x0
+[DDR Reserve] DRAMC_AO_CHB + 0xD00(0x10240D00):          0x4
+[DDR Reserve] DDRPHY_AO_CHB + 0x1520(0x10249520):          0x0
+[DDR Reserve] DRAMC_NAO_CHB + 0x80(0x10244080):          0x40060386
+[DDR Reserve] DRAMC_NAO_CHB + 0x84(0x10244084):          0x10000000
+[DDR Reserve] DRAMC_NAO_CHB + 0x88(0x10244088):          0x0
+[RGU] rst from: ?
+[RGU] MODE:               0x4D
+[RGU] STA:                0x0
+[RGU] LENGTH:             0xFFE0
+[RGU] INTERVAL:           0xFFF
+[RGU] SWSYSRST:           0x0
+[RGU] LATCH_CTL:          0x0
+[RGU] NONRST_REG:         0x0
+[RGU] NONRST_REG2:        0x20000000
+[RGU] DEBUG_CTL:          0x0
+[RGU] DEBUG_1_REG:        0x0
+[RGU] parse g_rgu_status: 0 (0x0)
+[RGU] Set NONRST_REG to 0x0
+[RGU] mtk_wdt_mode_config mode value=30, tmp:22000030
+[DOE_ENV]get_env apwdt_en
+[RGU] mtk_wdt_mode_config mode value=7D, tmp:2200007D
+[RGU] mtk_wdt_reset_deglitch_enable: MTK_WDT_RSTDEG_EN1(8000A357), MTK_WDT_RSTDEG_EN2(800067D2)
+[RGU] rgu_update_reg: 0, bits: 0xC000, addr: 0x10007040, val: 0x0
+[RGU] rgu_update_reg: 0, bits: 0x300, addr: 0x100070A0, val: 0x0
+[RGU] mtk_wdt_pre_init: MTK_WDT_DEBUG_CTL(0x0)
+[RGU] mtk_wdt_pre_init: MTK_WDT_DEBUG_CTL2(0x0)
+[RGU] mtk_wdt_pre_init: MTK_WDT_LATCH_CTL(0x21E71)
+[DOE_ENV]get_env apwdt_en
+[DOE_ENV]get_env apwdt_en
+[DOE_ENV]get_env apwdt_en
+[RGU] mtk_wdt_pre_init: MTK_WDT_REQ_MODE(1F0073), MTK_WDT_REQ_IRQ_EN(1B0070)
+#T#WDT_PRE=21
+RAM_CONSOLE_PL using SRAM
+RAM_CONSOLE_PL start: 0x11D000, size: 0x800, sig: 0x737A24C2
+RAM_CONSOLE_PL init done
+RAM_CONSOLE_PL wdt status (0x0)=0x0
+#T#Ram console=2
+[PMIF] PLL_ULPOSC1_CON0/1/2 0x38A94D 0x52E000 0x400000
+[PMIF] ULPOSC1 K done: 260M
+[pmifclkmgr_set_spmi_m_clk] done
+[pmifclkmgr_set_spmi_p_clk] done
+#T#PMIFCLKMGR=3
+[SPMI] spmi_read_check done, slvid:4
+[SPMI] non-rcs dly:0, pol:1, sampl:0x1
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0
+record write addr=0x0, data=0x0, cmd=0(the last)
+[SPMI] spmi_read_check done, slvid:4
+[SPMI] rcs_en dly:0, pol:1, sampl:0x1
+[SPMI] spmi_read_check done, slvid:5
+[SPMI] non-rcs dly:0, pol:1, sampl:0x1
+[SPMI] spmi_read_check done, slvid:5
+[SPMI] rcs_en dly:0, pol:1, sampl:0x1
+#T#SPMI=10
+[SPMI] spmi_read_check done, slvid:4
+[SPMI] non-rcs dly:0, pol:1, sampl:0x1
+#T#SPMI_P=1
+KPD_DL_KEY1 not define
+#T#I2C=1
+DATE_CODE_YY:0, DATE_CODE_WW:0
+[SegCode] Segment Code:0x2, PROJECT_CODE:0x0, FAB_CODE:0x0, RW_STA:0x992, CTL:0x0, DCM:0x7
+#T#DEVINFO=1
+[PMIC]Preloader Start
+[PMIC] CHIP Code = 0x3030
+[PMIC]POWER_HOLD :0x1
+[PMIC]TOP_RST_STATUS[0x13C]=0x0
+[PMIC]PONSTS[0xC]=0x24
+[PMIC]POFFSTS[0xE]=0x0
+[PMIC]TOPSTS[0x18]=0x6
+[pmic_check_rst] PORSTB
+[PMIC]just_rst = 0
+[PMIC]RG_RSV_SWREG[0xA0D]=0x0
+[pwrkey_dbg_status] powerkey:0 count=0(ms) g_pwrkey_release=0
+[pmic_wdt_set] TOP_RST_MISC1=0x21
+register vmd12 OK
+register vrfdig OK
+register vcore OK
+register vmd11 OK
+register vsram_md OK
+register vsram_core OK
+register vsram_proc OK
+register vsram_rfdig OK
+register vio18_2 OK
+register vmdd2_no_used OK
+register vefuse OK
+register vio18_1 OK
+register vmddr OK
+register vmddq OK
+register vmc OK
+[MT6315]S5 RG_SLV_ID[0x136]=0xB5
+[MT6315]S5 TOP_RST_STATUS[0x129]=0x0
+[MT6315]S5 POFFSTS[0xC]=0x0
+[MT6315]S5 RGS_POFFSTS[0xA0F]=0x14
+[MT6315]S5 PG_SDN_STS0[0xF]=0xF
+[MT6315]S5 OC_SDN_STS0[0x10]=0x0
+[MT6315]S5 BUCK_OC_SDN_STS[0x1416]=0x0
+[MT6315]S5 BUCK_OC_SDN_EN[0x1451]=0x1F
+[MT6315]S5 TOP_RST_MISC[0x126]=0x0
+register vproc OK
+[MT6315]latch vproc 0 uV(0x0)
+register vmdd2 OK
+[MT6315]latch vmdd2 0 uV(0x0)
+[MT6315]S5 set TOP_RST_MISC=0x3
+0xFFFF:0xFFFF:0xFFFF:0xFFFF:0x4D1C:0x6C57:0x3980:0x1BCA:(S5)
+[MT6315]mt6315_spmi_probe done
+[PMIC]Init done
+[pmic_enable_smart_reset] smart_en:0, smart_sdn_en:0
+#T#PMIC=19
+Current RTC time:[1988/10/22 23:8:28]
+vproc/vsram run as hw default
+[RGU] mtk_wdt_mode_config mode value=30, tmp:22000030
+[RGU] mtk_wdt_mode_config mode value=7D, tmp:2200007D
+[RGU] g_rgu_status: 0 (0x0)
+[DOE_ENV]get_env apwdt_en
+[RGU] bypass pwrkey: wdt does not trigger rst
+#T#WDT_INIT=3
+RAM_CONSOLE_PL wdt status (0x0)=0x0
+#T#Ram console=0
+[SD0] Host controller intialization start
+MSDC0 HCLK_MUX[0x1000_0020][17:16] = 1, pdn = 0, CLK_MUX[0x1000_0020][26:24] = 1, pdn = 0, CLK_CG[0x1000_1094] bit2 = 0, bit6 = 0
+MSDC0 MODE5[10005350] = 0x11111000	should: 0x11111???
+MSDC0 MODE6[10005360] = 0x01111111	should: 0x?1111111
+MSDC0 IES   [11E00030] = 0x001FFFFF	should: 0x????1FFE
+MSDC0 SMT   [11E000D0] = 0x000FFFFF	should: 0x?????FFF
+MSDC0 TDSEL0_0[11E000F0] = 0x00000000,[11E00100] = 0x00000000	should: 0x00000000MSDC0, should: 0x????0000
+MSDC0 RDSEL0[11E00090] = 0x00000000, [11E000A0] = 0x00000000, [11E000B0] = 0x00000000	should: 0x00000000 ,should: 0x00000000 ,should: 0x??????00
+MSDC0 DRV0  [11E00000] = 0x09249249,  [11E00010] = 0x00249249	should: 0x?9249249, should: 0x???????9
+PUPD/R1/R0: dat/cmd:0/0/1, clk/dst: 1/1/0
+MSDC0 PUPD0 [11E00050] = 0x0003F401	should: 0x?????401
+MSDC0 R0 [11E00070] = 0x0003EBFE	should: 0x?????BFE
+MSDC0 R1 [11E00080] = 0x00001401	should: 0x?????401
+[SD0] SET_CLK(260kHz): SCLK(260kHz) MODE(0) DDR(0) DIV(400) DS(0) RS(0)
+[SD0] Host controller intialization done
+[mmc_init]: msdc0 start mmc_init_card()
+[mmc_init_card]: start
+[SD0] EXT_CSD_ERASE_GRP_DEF is Off, wp_size = 8192KB
+[SD0] csd.write_prot_grpsz = 15, csd.erase_sctsz = 1024
+[SD0] Switch to High-Speed mode!
+[SD0] Switch to SDR buswidth
+[SD0] SET_CLK(260kHz): SCLK(260kHz) MODE(0) DDR(0) DIV(400) DS(0) RS(0)
+[SD0] Size: 29820 MB, Max.Speed: 52000 kHz, blklen(512), nblks(61071360)
+[SD0] Initialized, eMMC45
+[SD0] SET_CLK(52000kHz): SCLK(52000kHz) MODE(0) DDR(0) DIV(2) DS(0) RS(0)
+[mmc_init_card]: finish successfully
+#T#Boot dev init=220
+[PLFM] Init Boot Device: OK(0)
+[SD0] EXT_CSD_ERASE_GRP_DEF is Off, wp_size = 8192KB
+[SD0] csd.write_prot_grpsz = 15, csd.erase_sctsz = 1024
+[AB] Current boot: Preloader_a
+[AB] ab_suffix: _a, ab_retry: 2, ab_boot_success: 1
+[ROM_INFO] 'v131074'
+
+[LIB] Loading SEC config
+[LIB] Name =
+[LIB] Config = 0x22, 0x11
+0x31,0x41,0x35,0x32
+GCPU Enhance,PL_V1.4
+
+
+[SEC] reading seccfg
+0x4D,0x4D,0x4D,0x4D,0x4,0x0,0x0,0x0,
+[LIB] seclib_img_auth_load_sig [LIB] CFG read size '0x2000' '0x3C'
+0x4D4D4D4D
+[LIB] SEC CFG 'v4' exists
+[LIB] HW DEC
+[LIB] SEC CFG is valid. Lock state is 1
+#T#Sec lib init=19
+[SD0] EXT_CSD_ERASE_GRP_DEF is Off, wp_size = 8192KB
+[SD0] csd.write_prot_grpsz = 15, csd.erase_sctsz = 1024
+boot_part: 1
+part name=loader_ext_a
+[SEC_POLICY] reached the end, use default policy
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state(default) = 0x4
+img_auth_required=1
+sbc_en = 1
+sbc_en = 1
+[SEC_POLICY] reached the end, use default policy
+[SBC] cert verify, part = loader_ext_a, img = loader_ext_dram...ok
+otp ver:0
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+img: loader_ext_dram cert vfy(67 ms)
+load loader_ext_a_dram
+img vfy...[SBC] img auth ok
+ok
+img: loader_ext_dram vfy(1 ms)
+checking loader_ext: PL BUILD_TIME: 20211101-141814, loader_ext BUILD_TIME: 20211101-141814
+#T#loader_ext_dram=79
+#T#Long Pressed Reboot=0
+[PLFM] Init PMIC: OK(0)
+[PLFM] chip_ver[1]
+Unmask all EINT event mask
+
+[BLDR] Build Time: 20211101-141814
+[DOE_ENV] No doconfig setting
+[DOE_ENV]read_env_area fail, ret = -1
+#T#dconfig init=7
+#T#lastpc=0
+Bring-UP : skip srclken_rc init
+#T#srclken_rc=1
+clk_buf_dump_dts_log: PMIC_CLK_BUF?_STATUS 1/2/3/4/7=2 1 1 2 1
+clk_buf_dump_dts_log: PMIC_CLK_BUF?_OUTPUT_IMPEDANCE 1/2/3/4/7=3 4 3 4 3
+clk_buf_dump_dts_log: PMIC_CLK_BUF?_CONTROLS_FOR_DESENSE 2/3/4=4 0 3
+clk_buf_dump_clkbuf_log DCXO_CW00/09/12/13/15/19/19_1/19_2=0x6B6D 5B 80 4C F0F 48 24 4
+clk_buf_dump_clkbuf_log spi_con1/ldo_rf_op/ldo_bb_op/ldo_rf_en/ldo_bb_en=0x1 0 0 1 1
+clk_buf_dump_clkbuf_log clk buf vrfck_hv_en=0x0
+clk_buf_dump_clkbuf_log DCXO_CW00/09/12/13/15/19/19_1/19_2=0x4E1D 51 80 3C F0F 46 1B 4
+clk_buf_dump_clkbuf_log spi_con1/ldo_rf_op/ldo_bb_op/ldo_rf_en/ldo_bb_en=0x0 1 1 0 0
+clk_buf_dump_clkbuf_log clk buf vrfck_hv_en=0x0
+pmwrap_interface_init: PMIF_SLP_REQ
+[_pmic_interface_select] PMIFSPMI_SLEEP_PROTECTION_CRL(0x3B1D0)
+[_pmic_interface_select] PMIFSPMI_P_SLEEP_PROTECTION_CRL(0x3B1D0)
+[_pmic_interface_select] PMIFSPMI_MODE_CRL(0x2C5D)
+[_pmic_interface_select] PMIFSPMI_P_MODE_CRL(0x2C5D)
+[_pmic_interface_select] PMIFSPMI_INF_EN(0xBED)
+[_pmic_interface_select] PMIFSPMI_OTHER_INF_EN(0x3)
+[_pmic_interface_select] PMIFSPMI_ARB_EN(0x6BED)
+clk_buf_init_pmic_wrap: DCXO_CMD_ADR0/WDATA0=0x4120412/10000
+clk_buf_init_pmic_wrap: DCXO_CMD_ADR1/WDATA1=0x78C078D/10001
+[clk_buf_init_pmic_wrap]: PMIC Slave ID: 0x4
+#T#clk_buf_init=14
+[RTC]get_frequency_meter: input=0x0, ouput=5
+[RTC]get_frequency_meter: input=0x0, ouput=0
+[RTC]get_frequency_meter: input=0x0, ouput=0
+[RTC]RTC 32K mode setting wrong. Enter first boot/recovery.
+[RTC]rtc_init#1 powerkey1 = 0xA8, powerkey2 = 0x223C, with LPD
+[RTC]bbpu = 0x43, con = 0x9280, osc32con = 0xAA10, sec = 0xD0D5, yea = 0x2A15
+[RTC]rtc_first_boot_init
+[RTC]Enable EOSC LPD only
+[RTC]rtc_lpd_init RTC_CON=0x486
+[RTC]get_frequency_meter: input=0x0, ouput=5
+[RTC]get_frequency_meter: input=0x0, ouput=5
+[RTC]get_frequency_meter: input=0x0, ouput=3242
+[RTC]eosc_cali: RG_FQMTR_CKSEL=0xA
+[RTC]get_frequency_meter: input=0xF, ouput=884
+[RTC]eosc_cali: val=0x374
+[RTC]get_frequency_meter: input=0x7, ouput=759
+[RTC]eosc_cali: val=0x2F7
+[RTC]get_frequency_meter: input=0xB, ouput=822
+[RTC]eosc_cali: val=0x336
+[RTC]get_frequency_meter: input=0x9, ouput=792
+[RTC]eosc_cali: val=0x318
+[RTC]EOSC cali val = 0x9
+[RTC]EOSC cali val = 0xDE49
+[RTC]rtc_2sec_stat_clear
+[RTC]32k-less mode
+[RTC]rtc_2sec_reboot_check 0x2000, without 2sec reboot, type 0x0
+[RTC]rtc 2sec reboot is not enabled
+#T#rtc=234
+[PMIC_INIT_SETTING] start
+wk_oc_thd_setting: efuse_data: 0x8005
+�yұ��S: no need adjust vmdd2/vio18_2
+VAUX18=1800.0mV (0x0), VBG12=1220.0mV (0x3C)
+pmic e3, efuse_data 700, rsv0 : C0, rsv1 : F1
+[PMIC_INIT_SETTING] done v200804
+[MT6330] 1 3,68
+[MT6330] 1 4,68
+[MT6330] 1 1,48
+[MT6330] get volt 5, 40, 0, 0
+vsram_core = 750000 uV
+[MT6330] get volt 6, 56, 0, 0
+vsram_proc = 850000 uV
+[MT6330] get volt 4, 68, 0, 0
+vsram_md = 825000 uV
+[MT6330] get volt 1, 48, 0, 0
+vrfdig = 700000 uV
+[MT6330] get volt 2, 56, 0, 0
+vcore = 750000 uV
+[MT6330] get volt 3, 68, 0, 0
+vmd11 = 825000 uV
+#T#pmic=10
+[TIA] TIA init done
+#T#TIA=0
+[DOE_ENV]get_env dvfs_v_mode
+dvfsrc_opp_level_mapping: VMODE=0, RSV4=0
+dvfsrc_opp_level_mapping: FINAL vcore_opp_uv: 750000, 650000, 600000, 550000
+#T#dvfsrc_opp_level_mapping=2
+[DDR Reserve] ddr reserve mode not be enabled yet
+#T#chk DDR Reserve status=1
+Enter mtk_kpd_gpio_set!
+after set KP enable: KP_SEL = 0x1C70 !
+[RTC]irqsta = 0x0, pdn1 = 0x0, pdn2 = 0x201, spar0 = 0x0, spar1 = 0x800
+[RTC]new_spare0 = 0x4000, new_spare1 = 0x5001, new_spare2 = 0x601, new_spare3 = 0x1
+[RTC]bbpu = 0x0, con = 0x486, cali = 0x2000, osc32con = 0xDE69
+#T#check Boot status-RTC=36
+#T#check Boot status-PMIC=0
+#T#check Boot status-WDT=0
+#T#check Boot status-PWR key=0
+[PLFM] Power key boot!
+#T#check Boot status=0
+[PMIC]POWER_HOLD :0x1
+[RTC]rtc_bbpu_power_on done
+#T#rtc_bbpu_power_on=3
+#T#Enable PMIC Kpd clk=0
+[dramc] nand part id:0x0
+[dramc] init boot_para partition address is 0x0000000008688000
+[dramc] init SRAM region for DRAM exception detection
+[dramc] LAST_DRAM_FATAL_ERR_FLAG = 0x0
+for cold boot, always return 0
+[MT6330] 4 2,1
+[MT6315]4 16,1
+[MT6330] mt6330_ldo_convert_data, cnvdata 1800000, n_size 3
+[MT6330] 1 8,12
+[MT6330] 1 2,56
+[MT6315]1 16,180
+[MT6330] mt6330_ldo_convert_data, cnvdata 600000, n_size 3
+[MT6330] 1 13,1
+[MT6330] mt6330_ldo_convert_data, cnvdata 750000, n_size 3
+[MT6330] 1 12,4
+[dramc] read_offline_dram_mdl_data
+[DRAMC][info] dram_type 6, mr5 1, rank0_size 0000000080000000, rank1_size 0000000000000000
+eMMC cid: 15010034,58364B4D,4203E865,6A776827
+[DRAMC] Nand id:15, 1, 0, 34, 58,
+loop ALL DDR [DRAMC] qvl(0),type(206),mr5(1),rank0_size(0x0000000080000000),rank1_size(0x0000000000000000)
+[DRAMC] get id:15, 1, 0, 34, 58, 36, 4B, 4D, 42,
+loop ALL DDR [DRAMC] qvl(1),type(206),mr5(1),rank0_size(0x0000000080000000),rank1_size(0x0000000000000000)
+[DRAMC] get id:
+loop ALL DDR [DRAMC] qvl(2),type(6),mr5(FF),rank0_size(0x0000000080000000),rank1_size(0x0000000000000000)
+[DRAMC] get id:
+[DRAMC] qvl(0),type(206),mr5(1),rank0_size(0x0000000080000000),rank1_size(0x0000000000000000)
+[EMI] CEN_CONA(0xF050F154),CEN_CONF(0x21000),CEN_CONH(0x4040003),CEN_CONK(0x0),CHN_CONA(0x4043010)
+[MT6330] 1 2,40
+Read voltage for 800, 4
+[MT6330] mt6330_ldo_convert_data, cnvdata 12, n_size 3
+[MT6330] get volt 8, 12, 0, 0
+Vio18 = 1800000
+[MT6330] get volt 2, 40, 0, 0
+Vcore = 650000
+[MT6315]get volt 16, 180, 1125000
+Vdram = 1125000
+[MT6330] mt6330_ldo_convert_data, cnvdata 1, n_size 3
+[MT6330] get volt 13, 1, 0, 0
+Vddq = 600000
+[MT6330] mt6330_ldo_convert_data, cnvdata 4, n_size 3
+[MT6330] get volt 12, 4, 0, 0
+Vmddr = 750000
+[dramc] DRAM K Type: FAST_K for shuffle: 4
+[MT6330] 1 2,44
+Read voltage for 1200, 2
+[MT6330] mt6330_ldo_convert_data, cnvdata 12, n_size 3
+[MT6330] get volt 8, 12, 0, 0
+Vio18 = 1800000
+[MT6330] get volt 2, 44, 0, 0
+Vcore = 675000
+[MT6315]get volt 16, 180, 1125000
+Vdram = 1125000
+[MT6330] mt6330_ldo_convert_data, cnvdata 1, n_size 3
+[MT6330] get volt 13, 1, 0, 0
+Vddq = 600000
+[MT6330] mt6330_ldo_convert_data, cnvdata 4, n_size 3
+[MT6330] get volt 12, 4, 0, 0
+Vmddr = 750000
+[dramc] DRAM K Type: FAST_K for shuffle: 2
+[MT6330] 1 2,40
+Read voltage for 600, 5
+[MT6330] mt6330_ldo_convert_data, cnvdata 12, n_size 3
+[MT6330] get volt 8, 12, 0, 0
+Vio18 = 1800000
+[MT6330] get volt 2, 40, 0, 0
+Vcore = 650000
+[MT6315]get volt 16, 180, 1125000
+Vdram = 1125000
+[MT6330] mt6330_ldo_convert_data, cnvdata 1, n_size 3
+[MT6330] get volt 13, 1, 0, 0
+Vddq = 600000
+[MT6330] mt6330_ldo_convert_data, cnvdata 4, n_size 3
+[MT6330] get volt 12, 4, 0, 0
+Vmddr = 750000
+[dramc] DRAM K Type: FAST_K for shuffle: 5
+[MT6330] 1 2,44
+Read voltage for 933, 3
+[MT6330] mt6330_ldo_convert_data, cnvdata 12, n_size 3
+[MT6330] get volt 8, 12, 0, 0
+Vio18 = 1800000
+[MT6330] get volt 2, 44, 0, 0
+Vcore = 675000
+[MT6315]get volt 16, 180, 1125000
+Vdram = 1125000
+[MT6330] mt6330_ldo_convert_data, cnvdata 1, n_size 3
+[MT6330] get volt 13, 1, 0, 0
+Vddq = 600000
+[MT6330] mt6330_ldo_convert_data, cnvdata 4, n_size 3
+[MT6330] get volt 12, 4, 0, 0
+Vmddr = 750000
+[dramc] DRAM K Type: FAST_K for shuffle: 3
+[MT6330] 1 2,40
+Read voltage for 400, 6
+[MT6330] mt6330_ldo_convert_data, cnvdata 12, n_size 3
+[MT6330] get volt 8, 12, 0, 0
+Vio18 = 1800000
+[MT6330] get volt 2, 40, 0, 0
+Vcore = 650000
+[MT6315]get volt 16, 180, 1125000
+Vdram = 1125000
+[MT6330] mt6330_ldo_convert_data, cnvdata 1, n_size 3
+[MT6330] get volt 13, 1, 0, 0
+Vddq = 600000
+[MT6330] mt6330_ldo_convert_data, cnvdata 4, n_size 3
+[MT6330] get volt 12, 4, 0, 0
+Vmddr = 750000
+[dramc] DRAM K Type: FAST_K for shuffle: 6
+WARN: tr->DQ_AAMCK_DIV=  d, Because of DQ_SEMI_OPEN, It's don't care.[MT6330] 1 2,56
+Read voltage for 1866, 0
+[MT6330] mt6330_ldo_convert_data, cnvdata 12, n_size 3
+[MT6330] get volt 8, 12, 0, 0
+Vio18 = 1800000
+[MT6330] get volt 2, 56, 0, 0
+Vcore = 750000
+[MT6315]get volt 16, 180, 1125000
+Vdram = 1125000
+[MT6330] mt6330_ldo_convert_data, cnvdata 1, n_size 3
+[MT6330] get volt 13, 1, 0, 0
+Vddq = 600000
+[MT6330] mt6330_ldo_convert_data, cnvdata 4, n_size 3
+[MT6330] get volt 12, 4, 0, 0
+Vmddr = 750000
+[dramc] DRAM K Type: FAST_K for shuffle: 0
+[MT6330] 1 2,48
+Read voltage for 1600, 1
+[MT6330] mt6330_ldo_convert_data, cnvdata 12, n_size 3
+[MT6330] get volt 8, 12, 0, 0
+Vio18 = 1800000
+[MT6330] get volt 2, 48, 0, 0
+Vcore = 700000
+[MT6315]get volt 16, 180, 1125000
+Vdram = 1125000
+[MT6330] mt6330_ldo_convert_data, cnvdata 1, n_size 3
+[MT6330] get volt 13, 1, 0, 0
+Vddq = 600000
+[MT6330] mt6330_ldo_convert_data, cnvdata 4, n_size 3
+[MT6330] get volt 12, 4, 0, 0
+Vmddr = 750000
+[dramc] DRAM K Type: FAST_K for shuffle: 1
+PPR Not assign channel/rank/bank!!
+[MT6330] 1 2,56
+Read voltage for 1866, 0
+[MT6330] mt6330_ldo_convert_data, cnvdata 12, n_size 3
+[MT6330] get volt 8, 12, 0, 0
+Vio18 = 1800000
+[MT6330] get volt 2, 56, 0, 0
+Vcore = 750000
+[MT6315]get volt 16, 180, 1125000
+Vdram = 1125000
+[MT6330] mt6330_ldo_convert_data, cnvdata 1, n_size 3
+[MT6330] get volt 13, 1, 0, 0
+Vddq = 600000
+[MT6330] mt6330_ldo_convert_data, cnvdata 4, n_size 3
+[MT6330] get volt 12, 4, 0, 0
+Vmddr = 750000
+[dramc] post_process_save_time_calibration is_storage_emmc: 0
+[dramc] calibration data already in NAND storage, skip
+[MT6330] 4 2,0
+[MT6315]4 16,0
+[MT6330] 1 2,56
+[DRAMC] DRAM init complete
+[MEM] 1st complex R/W mem test pass (start addr:0x44000000)
+[LastDRAMC] 0x11D80C: 0x19870611
+[LastDRAMC] 0x11D810: 0x451C0004
+[LastDRAMC] 0x11D814: 0x0
+[LastDRAMC] 0x11D818: 0x5C9B0615
+[LastDRAMC] 0x11D81C: 0x0
+[LastDRAMC] 0x11D820: 0x0
+[LastDRAMC] 0x11D824: 0x80000000
+[LastDRAMC] 0x11D828: 0x0
+[LastDRAMC] 0x11D82C: 0x31F3DF0A
+[LastDRAMC] 0x11D830: 0x6E9126A7
+[LastDRAMC] 0x11D834: 0xA9B26872
+[LastDRAMC] 0x11D838: 0xD2C27206
+[LastDRAMC] 0x11D83C: 0x0
+[LastDRAMC] 0x11D840: 0x0
+[LastDRAMC] 0x11D844: 0x0
+[LastDRAMC] 0x11D848: 0x0
+[LastDRAMC] 0x11D84C: 0x0
+[LastDRAMC] 0x11D850: 0x0
+DRAM rank0 size:0x0000000080000000,
+DRAM rank1 size=0x0000000000000000
+DRAM rank0 size:0x0000000080000000,
+DRAM rank1 size=0x0000000000000000
+[EMI] ch0, rk0, dram addr: 3FFFE000
+[EMI] bk4, rowFFFF, col0
+DRAM rank0 size:0x0000000080000000,
+DRAM rank1 size=0x0000000000000000
+DRAM rank0 size:0x0000000080000000,
+DRAM rank1 size=0x0000000000000000
+DRAM rank0 size:0x0000000080000000,
+DRAM rank1 size=0x0000000000000000
+[EMI] ch1, rk0, dram addr: 3FFFE000
+[EMI] bk4, rowFFFF, col0
+DRAM rank0 size:0x0000000080000000,
+DRAM rank1 size=0x0000000000000000
+[dramc] DRAM_FATAL_ERR_FLAG = 0x80000000
+#T#mem_init=198
+[Dram_Buffer] g_dram_buf start addr: 0x42A00000
+[Dram_Buffer] g_dram_buf->msdc_gpd_pool start addr: 0x42A75940
+[Dram_Buffer] g_dram_buf->msdc_bd_pool start addr: 0x42A75980
+#T#Init Dram buf=3
+[DOE_ENV]get_env aee_enable
+RAM_CONSOLE_PL aee enable 0
+[PLFM] Efuse status(0)
+#T#EFUSE Self Blow=1
+[DOE_ENV]get_env DOE_CUSTOM_CONFIG_MAX_DRAM_SIZE
+CUSTOM_CONFIG_MAX_DRAM_SIZE: 0x0000000800000000
+total_dram_size: 0x0000000080000000, max_dram_size: 0x0000000800000000
+dump mblock info
+mblock[i] start=0000000040000000 size=0000000080000000
+DRAM rank0 size:0x0000000080000000,
+DRAM rank1 size=0x0000000000000000
+DRAM rank0 size:0x0000000080000000,
+DRAM rank1 size=0x0000000000000000
+[EMI] ch0, rk0, dram addr: 0
+[EMI] bk0, row0, col0
+[DOE_ENV]get_env DOE_CUSTOM_CONFIG_MAX_DRAM_SIZE
+CUSTOM_CONFIG_MAX_DRAM_SIZE: 0x0000000800000000
+mblock_reserve: 00000000BFFFF000 - 00000000C0000000 from mblock 0
+mblock_reserve: 000000007FFFF000 - 0000000080000000 from mblock 0
+[EMI] mbist rsv_start=0x000000007FFFF000
+DRAM rank0 size:0x0000000080000000,
+DRAM rank1 size=0x0000000000000000
+DRAM rank0 size:0x0000000080000000,
+DRAM rank1 size=0x0000000000000000
+[EMI] ch0, rk0, dram addr: 0
+[EMI] bk0, row0, col0
+#T#Get DRAM Info=11
+[GPT_PL]Success to find valid GPT.
+#T#part_init=9
+PL_LOG_STORE:sram->sig value 0x9B9E2B58!
+PL_LOG_STORE:sram header is not match, format all!
+PL_LOG_STORE:set ram_header->sig = 0xABCD1234
+PL_LOG_STORE:expdb partition start addr 0x108000, end addr 0x1508000, partition size 0x1400000, nr_sects 0xA000, blksz 0x200!
+PL_LOG_STORE:get uart flag= 0x0
+PL_LOG_STORE:log_to_emmc function flag 0x0!
+PL_LOG_STORE:sram_dram_buff->sig 0x0!
+mblock_reserve: 000000007FFBF000 - 000000007FFFF000 from mblock 0
+PL_LOG_STORE:sram_header 0x11DF00,sig 0xABCD1234, sram_dram_buff 0x11DF0C, buf_addr 0x7FFBF000
+#T#store_switch_to_dram=16
+#T#rpmb=0
+[MT6330] get volt 2, 56, 0, 0
+vcore = 750000 uV
+#T#before bldr_handshake=1
+#T#seclib_brom_meta_mode=0
+[BLDR] Tool connection is unlocked
+[platform_vusb_on] VUSB33 is on
+
+[USB] MDCIRQ 0x10000280 before: 0
+[USB] MDCIRQ 0x10000280 after: 0
+
+[PMIC]IsUsbCableIn 1
+[PMIC]IsUsbCableIn 1
+
+[PLFM] USB cable in
+[TOOL] USB enum timeout (Yes), handshake timeout(Yes)
+[TOOL] Enumeration(Start)
+[TOOL] Enumeration(End): OK 493ms
+[TOOL] : usb listen timeout
+[TOOL] <USB> cannot detect tools!
+#T#USB handshake=3313
+#T#bldr_handshake=0
+[DEVAPC]Device APC domain init setup:
+[DEVAPC]APC_CON: INFRA_AO(0x1), PERI_AO(0x1), PERI_AO2(0x1), PERI_PAR_AO(0x1), FMEM_AO(0x1)
+[DEVAPC]INFRA_AO_MAS_SEC_0:0x2800, PERI_AO_MAS_SEC_0:0x0, PERI_PAR_AO_MAS_SEC_0:0x0, FMEM_AO_MAS_SEC_0:0x0
+[DEVAPC]Domain Setup: INFRA_AO (0x2000000), (0xE0008)
+[DEVAPC]Domain Setup: PERI_AO (0x90000)
+[DEVAPC]Domain Setup: PERI_PAR_AO (0x50505), (0x0), (0x0), (0x0), (0x500)
+[DEVAPC]Domain Setup: FMEM_AO (0x0), (0x0), (0x601)
+[DEVAPC]SRAMROM DOM_REMAP 0:0xF9FFFFF8, 1:0xEBFF
+[DEVAPC]MMSYS DOM_REMAP 0:0xFFFDFFFC
+[DEVAPC]CONNSYS/MD slave DOM_REMAP 0:0xFBFFFE88, 1:0xFFFF
+#T#sec_boot_check=7
+mblock_reserve: 0000000042C00000 - 0000000042E00000 from mblock 0
+mblock_reserve: 0000000043E00000 - 0000000043E40000 from mblock 1
+#T#trustzone pre init=2
+[DOE_ENV]get_env aee_enable
+RAM_CONSOLE_PL aee enable 0
+mblock_reserve: 000000007FEB0000 - 000000007FFB0000 from mblock 2
+SSPM enable sram SPM_CG_ENABLE=0x1
+SSPM enable sram SSPM_SRAM_CG_ENABLE=0x1001012
+[PART] partition name = sspm_a
+[SEC_POLICY] reached the end, use default policy
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state(default) = 0x4
+[PART] img_auth_required = 1
+[PART] Image with header, name: tinysys-sspm, addr: FFFFFFFFh, mode, size:-1, magic:5D473h
+sbc_en = 1
+sbc_en = 1
+[SEC_POLICY] reached the end, use default policy
+[SBC] cert verify, part = sspm_a, img = tinysys-sspm...ok
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[PART] part: sspm_a img: tinysys-sspm cert vfy(42 ms)
+
+[PART] load "sspm_a" from 0x0000000010888200 (dev) to 0x7FEB0018 (mem) [SUCCESS]
+[PART] load speed: 10083KB/s, 382067 bytes, 37ms
+[PART] img vfy...[SBC] img auth ok
+ok
+[PART] part: sspm_a img: tinysys-sspm vfy(4 ms)
+[DOE_ENV]get_env apwdt_en
+[DOE_ENV]get_env apwdt_en
+[DOE_ENV]get_env aee_enable
+RAM_CONSOLE_PL aee enable 0
+[BLDR] SSPM Start without ddr reserved mode (normal boot)
+[DOE_ENV]get_env aee_enable
+RAM_CONSOLE_PL aee enable 0
+[BLDR] lk2 partition not found
+[BLDR] lk active = 0, lk2 active = 0
+[BLDR] Loading LK Partition...
+[PART] partition name = lk_a
+[SEC_POLICY] reached the end, use default policy
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state(default) = 0x4
+[PART] img_auth_required = 1
+[PART] Image with header, name: lk, addr: FFFFFFFFh, mode, size:-1, magic:6A1E0h
+sbc_en = 1
+sbc_en = 1
+[SEC_POLICY] reached the end, use default policy
+[SBC] cert verify, part = lk_a, img = lk...ok
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[PART] part: lk_a img: lk cert vfy(42 ms)
+
+[PART] load "lk_a" from 0x0000000010A88200 (dev) to 0x44000000 (mem) [SUCCESS]
+[PART] load speed: 10105KB/s, 434656 bytes, 42ms
+[PART] img vfy...[SBC] img auth ok
+ok
+[PART] part: lk_a img: lk vfy(4 ms)
+LK addr: 0x44000000, size: 0x6B060
+[PART] partition name = tee_a
+[SEC_POLICY] reached the end, use default policy
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state(default) = 0x4
+[PART] img_auth_required = 1
+[PART] Image with header, name: atf, addr: FFFFFFFFh, mode, size:0, magic:32C00h
+sbc_en = 1
+sbc_en = 1
+[SEC_POLICY] reached the end, use default policy
+[SBC] cert verify, part = tee_a, img = atf...ok
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[PART] part: tee_a img: atf cert vfy(42 ms)
+
+[PART] load "tee_a" from 0x0000000010B88200 (dev) to 0x42C00DC0 (mem) [SUCCESS]
+[PART] load speed: 10149KB/s, 207872 bytes, 20ms
+[PART] img vfy...[SBC] img auth ok
+ok
+[PART] part: tee_a img: atf vfy(2 ms)
+[BLDR] tee_a part. ATF load addr:0x42C00DC0, size:0x33A80
+[BLDR] bldr load tee part ret=0x0, addr=0x42C00DC0
+mblock_reserve: 000000007FDB0000 - 000000007FEB0000 from mblock 2
+[PART] partition name = mcupm_a
+[SEC_POLICY] reached the end, use default policy
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state(default) = 0x4
+[PART] img_auth_required = 1
+[PART] Image with header, name: tinysys-mcupm-RV33_A, addr: FFFFFFFFh, mode, size:-1, magic:616FBh
+sbc_en = 1
+sbc_en = 1
+[SEC_POLICY] reached the end, use default policy
+[SBC] cert verify, part = mcupm_a, img = tinysys-mcupm-RV33_A...ok
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[PART] part: mcupm_a img: tinysys-mcupm-RV33_A cert vfy(42 ms)
+
+[PART] load "mcupm_a" from 0x0000000010988200 (dev) to 0x7FDB0018 (mem) [SUCCESS]
+[PART] load speed: 9993KB/s, 399099 bytes, 39ms
+[PART] img vfy...[SBC] img auth ok
+ok
+[PART] part: mcupm_a img: tinysys-mcupm-RV33_A vfy(4 ms)
+[DOE_ENV]get_env aee_enable
+RAM_CONSOLE_PL aee enable 0
+[BLDR] MCUPM start with normal boot
+[BLDR] MCUPM part. load & reset finished
+#T#load images=366
+[IMG_VER] pl ver check, ver=(0, 0)
+[ver]bypass update
+[PICACHU] picachu_log_init
+mblock_reserve: 000000005FF00000 - 000000005FF80000 from mblock 2
+[PICACHU] pi_dram_log_addr = 0x5FF00000
+[PICACHU] pi_dram_log_buf = 0x5FF40000
+[PICACHU] pi_log_dram_addr = 0x5FF00000
+[PICACHU][PICACHU] CPU: MT6890
+[PICACHU][PICACHU] Date: Feb 17 2021 16:01:17
+[PICACHU][CPU][Picachu][HRID][0]: 0xCFC49CEE
+[PICACHU][CPU][Picachu][HRID][1]: 0x4CC68FAE
+[PICACHU][CPU][Picachu][HRID][2]: 0x85E27292
+[PICACHU][CPU][Picachu][HRID][3]: 0x2FABCBA7
+[PICACHU][CPU][Picachu][SegCode]: 0x00000002
+[PICACHU][CPU][Picachu][PTP_DUMP] ORIG_RES0: 0x00000001
+[PICACHU][CPU][Picachu][PTP_DUMP] ORIG_RES1: 0x46162C2B
+[PICACHU][CPU][Picachu][PTP_DUMP] ORIG_RES2: 0x79EC242B
+[PICACHU][CPU][Picachu][PTP_DUMP] ORIG_RES3: 0x21112C21
+[PICACHU][CPU][Picachu][PTP_DUMP] ORIG_RES4: 0x46162C2B
+[PICACHU][CPU][Picachu][PTP_DUMP] ORIG_RES5: 0x00000000
+[PICACHU][CPU][Picachu][PTP_DUMP] ORIG_RES6: 0x00000000
+[PICACHU][CPU][Picachu][PTP_DUMP] ORIG_RES7: 0x1E011E01
+[PICACHU][CPU][Picachu][PTP_DUMP] ORIG_RES8: 0x1E011E01
+[PICACHU][CPU][Picachu][PTP_DUMP] ORIG_RES9: 0x00000000
+[DOE_ENV]get_env picachu-status
+mblock_reserve: 000000005FE00000 - 000000005FF00000 from mblock 2
+[PART] partition name = pi_img_a
+[SEC_POLICY] reached the end, use default policy
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state(default) = 0x4
+[PART] img_auth_required = 1
+[PART] Image with header, name: pi_img, addr: FFFFFFFFh, mode, size:-1, magic:1D0h
+sbc_en = 1
+sbc_en = 1
+[SEC_POLICY] reached the end, use default policy
+[SBC] cert verify, part = pi_img_a, img = pi_img...ok
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[PART] part: pi_img_a img: pi_img cert vfy(42 ms)
+
+[PART] load "pi_img_a" from 0x0000000010588200 (dev) to 0x5FE00000 (mem) [SUCCESS]
+[PART] load speed: 453KB/s, 464 bytes, 1ms
+[PART] img vfy...[SBC] img auth ok
+ok
+[PART] part: pi_img_a img: pi_img vfy(1 ms)
+[PICACHU][PICACHU] Image Date: 2171601
+[DOE_ENV]get_env is_slt_flavor_load
+[DOE_ENV]get_env is_aging_flavor_load
+[PICACHU]cpu_dvfs_id=0,  efuse_line_id=1, efuse_line_num=1
+[PICACHU]target pgm:0x1 seg:0x2, use latest version of the same ptp 0x1
+[PICACHU]bve=1
+[PICACHU]dvma=100000, dvmi=68125
+[PICACHU]adj1: 983750o 883750t 783750d 983750a 883750b 783750s
+[PICACHU]evh=583750, version_id=1, vh=683750
+[PICACHU]
+[PICACHU]cpu_dvfs_id=1,  efuse_line_id=1, efuse_line_num=1
+[PICACHU]target pgm:0x1 seg:0x2, use latest version of the same ptp 0x1
+[PICACHU]bve=1
+[PICACHU]dvma=100000, dvmi=68125
+[PICACHU]adj1: 983750o 883750t 783750d 983750a 883750b 783750s
+[PICACHU]evh=583750, version_id=1, vh=683750
+[PICACHU]
+[PICACHU]vf2 [PICACHU]
+[PICACHU]vf70 [PICACHU]vf24 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]
+[PICACHU]vf2000 [PICACHU]vf600 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]
+[PICACHU]vf2 [PICACHU]
+[PICACHU]vf70 [PICACHU]vf24 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]
+[PICACHU]vf1400 [PICACHU]vf420 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]
+[PICACHU]vf0 [PICACHU]
+[PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]
+[PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]vf0 [PICACHU]
+[PICACHU] picachu_log_dump
+[PICACHU] pi_dram_log_buf = 0x5FF40000
+#T#picachu=97
+[CPU_SES] disable.
+#T#ses_init=0
+#T#mtk_subpmic=0
+#T#pmif spmi post init=0
+mblock_reserve: 0000000042880000 - 0000000042960000 from mblock 0
+mblock_reserve: 0000000042960000 - 0000000042970000 from mblock 1
+mblock_reserve: 0000000042A00000 - 0000000042B00000 from mblock 1
+mblock_reserve: 0000000042B00000 - 0000000042C00000 from mblock 2
+mblock_reserve: 0000000043000000 - 0000000043200000 from mblock 3
+
+[PLFM] boot to LK by ATAG reason=0 addr=0x42B00000
+[PMIC]IsUsbCableIn 1
+[DOE_ENV]get_env aee_enable
+RAM_CONSOLE_PL aee enable 0
+RAM_CONSOLE_PL offset:0xEC0
+RAM_CONSOLE sram_plat_dbg_info_addr:0x11D800, sram_plat_dbg_info_size:0x400, sram_log_store_addr:0x11DF00, sram_log_store_size:0x100
+RAM_CONSOLE mrdump_addr:0x11E000, mrdump_size:0x2000, dram_addr:0x42980000, dram_size:0x10000
+RAM_CONSOLE pstore_addr:0x42880000, pstore_size:0xE0000, pstore_console_size:0x40000, pstore_pmsg_size:0x10000
+RAM_CONSOLE mrdump_mini_header_addr:0x42960000, mrdump_mini_header_size:0x10000, magic1:0x61646472, magic2:0x73697A65
+
+[PLFM] boot_tag size = 0x5A90
+BOOT_TAG_VERSION: 1
+BOOT_REASON: 0
+BOOT_MODE: 0
+META_COM TYPE: 0
+META_COM ID: 0
+META_COM PORT: 285220864
+META LOG DISABLE: 0
+FAST META GPIO: 178
+LOG_COM PORT: 285220864
+LOG_COM BAUD: 921600
+LOG_COM EN: 1
+LOG_COM SWITCH: 1
+MEM_NUM: 1
+MEM_SIZE: 0x23D914
+mblock num: 0x9
+magic=0xx version=0xx reserve num: 0x99999999
+BOOT_TIME: 4727
+SEC_INFO: 0x0
+SEC_INFO: 0x0
+DDR_RESERVE: 0
+DDR_RESERVE: 1
+DDR_RESERVE: 38146
+DRAM_BUF: 481728
+EMI dram_type: 6
+EMI ch_cnt: 2
+EMI rk_cnt: 1
+EMI rank0 size: 0x80000000
+SRAM start: 0x11B000
+SRAM size: 0x15000
+PLAT_DBG_INFO key: 0xD8A3
+PLAT_DBG_INFO base: 0x11D80C
+PLAT_DBG_INFO size: 0x48
+PLAT_DBG_INFO key: 0xE31C
+PLAT_DBG_INFO base: 0x11D854
+PLAT_DBG_INFO size: 0x2C
+PLAT_DBG_INFO key: 0xDB45
+PLAT_DBG_INFO base: 0x11D880
+PLAT_DBG_INFO size: 0x10
+is abnormal boot: 0
+ram_console info sram_addr: 0x11D000
+ram_console info sram_size: 0x800
+ram_console info def_type: 0x1
+ram_console memory_info_offset: 0xEC0
+#T#Boot Argu=22
+#T#trustzone post init=0
+[BLDR] Others, jump to ATF
+
+[BLDR] jump to 0x44000000
+[BLDR] <0x44000000>=0xEA000006
+[BLDR] <0x44000004>=0xEA000375
+[TZ_SEC_CFG] [B]SRAMROM SEC_ADDR:0x0, SEC_ADDR1:0x0, SEC_ADDR2:0x0
+[TZ_SEC_CFG] [B]SRAMROM SEC_CTRL:0x0, SEC_CTRL2:0x0, SEC_CTRL5:0x0, SEC_CTRL6:0x0
+[TZ_SEC_CFG] [B]SRAMROM DM_REMAP0:0x0,  DM_REMAP1:0x0
+[TZ_SEC_CFG] [A]SRAMROM SEC_ADDR:0x9001B000, SEC_ADDR1:0x1B000, SEC_ADDR2:0x1B000
+[TZ_SEC_CFG] [A]SRAMROM SEC_CTRL:0xB69, SEC_CTRL2:0xB6D, SEC_CTRL5:0xA000000, SEC_CTRL6:0xB6D0000
+[TZ_SEC_CFG] [A]SRAMROM DM_REMAP0:0x0,  DM_REMAP1:0x0
+NOTICE:  [ATF](0)[5.875791][MPU][mpu_svc]origin=0x10 phys=0x42c00000, sz=0x200000, zinf=0x2, req_set=1
+ERROR:   [ATF](0)[5.876911][MPU][mpu_svc]origin=0x10 entry is not found, id=2
+ERROR:   [ATF](0)[5.877761]failed to config MPU, ATF zone=2, pa=0x42c00000, sz=0x200000, rc=0x1001
+INFO:    [ATF](0)[5.879210]DRAM type 6
+INFO:    [ATF](0)[5.879641]DRAM freq step 0, 3733
+INFO:    [ATF](0)[5.880190]DRAM freq step 1, 3200
+INFO:    [ATF](0)[5.880739]DRAM freq step 2, 2400
+INFO:    [ATF](0)[5.881288]DRAM freq step 3, 1866
+INFO:    [ATF](0)[5.881837]DRAM freq step 4, 1600
+INFO:    [ATF](0)[5.882387]DRAM freq step 5, 1200
+INFO:    [ATF](0)[5.882936]DRAM freq step 6, 800
+INFO:    [ATF](0)[5.883474]log_enable:1
+INFO:    [ATF](0)[5.883916]atf_log_port:0x11002000
+INFO:    [ATF](0)[5.884476]BOOT_REASON: 0
+INFO:    [ATF](0)[5.884939]IS_ABNORMAL_BOOT: 0
+INFO:    [ATF](0)[5.885456]CPUxGPT reg(0)
+INFO:    [ATF](0)[5.885919][systimer] CNTCR_REG(0x81d)
+INFO:    [ATF](0)[5.886522]Secondary bootloader is AArch32
+INFO:    [ATF](0)[5.887168]bl31_plat_arch_setup()
+INFO:    [ATF](0)[5.887718]mmap atf buffer : 0x43e00000, 0x40000
+INFO:    [ATF](0)[5.888439]mmap ram_console: 0x11d000, 0x800, (pmore:0x1000)
+[ATF](0)[5.892358]mmap:
+[ATF](0)[5.892619] VA:0x11b000  PA:0x11b000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.893610] VA:0x11d000  PA:0x11d000  size:0x1000  attr:0x18  granularity:0x40000000
+[ATF](0)[5.894612] VA:0x8000000  PA:0x8000000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.895624] VA:0xc000000  PA:0xc000000  size:0x600000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.896658] VA:0xd0a0000  PA:0xd0a0000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.897670] VA:0xd101000  PA:0xd101000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.898683] VA:0xd108000  PA:0xd108000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.899695] VA:0xd11d000  PA:0xd11d000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.900707] VA:0xd138000  PA:0xd138000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.901720] VA:0xd13a000  PA:0xd13a000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.902732] VA:0xd147000  PA:0xd147000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.903744] VA:0xd153000  PA:0xd153000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.904756] VA:0x10005000  PA:0x10005000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.905790] VA:0x10022000  PA:0x10022000  size:0x4000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.906824] VA:0x10006000  PA:0x10006000  size:0x100000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.907880] VA:0x1020e000  PA:0x1020e000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.908913] VA:0x10310000  PA:0x10310000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.909947] VA:0x10000000  PA:0x10000000  size:0x400000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.911003] VA:0x10400000  PA:0x10400000  size:0x50000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.912047] VA:0x10480000  PA:0x10480000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.913081] VA:0x14116000  PA:0x14116000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.914115] VA:0x19021000  PA:0x19021000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.915149] VA:0x190f2000  PA:0x190f2000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.916183] VA:0x190f8000  PA:0x190f8000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.917216] VA:0x11000000  PA:0x11000000  size:0xa110000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.918283] VA:0x1f003000  PA:0x1f003000  size:0x2000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.919317] VA:0x1f005000  PA:0x1f005000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.920350] VA:0x1f028000  PA:0x1f028000  size:0x4000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.921384] VA:0x20000000  PA:0x20000000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.922418] VA:0x20061000  PA:0x20061000  size:0x1000  attr:0x8  granularity:0x40000000
+[ATF](0)[5.923452] VA:0x42c01000  PA:0x42c01000  size:0x30000  attr:0x2  granularity:0x40000000
+[ATF](0)[5.924496] VA:0x42c00000  PA:0x42c00000  size:0x200000  attr:0xa  granularity:0x40000000
+[ATF](0)[5.925552] VA:0x43e00000  PA:0x43e00000  size:0x40000  attr:0x18  granularity:0x40000000
+[ATF](0)[5.926607]
+INFO:    [ATF](0)[5.934043]abnormal_boot: 0x0, cflag: 0xffffffff
+INFO:    [ATF](0)[5.943887]FOOTPRINT_TYPE_MAX: 0x1
+INFO:    [ATF](0)[5.944501]mt_log_setup
+INFO:    [ATF](0)[5.944942] -atf_buf_lock: 0x0
+INFO:    [ATF](0)[5.945459] -mt_log_buf_start: 0x43e00000
+INFO:    [ATF](0)[5.946095] -mt_log_buf_size: 0x40000
+INFO:    [ATF](0)[5.946687] -log_addr: 0x43e00200
+INFO:    [ATF](0)[5.947236] -log_size: 0x13600
+INFO:    [ATF](0)[5.947753] -write_offset: 0x0
+INFO:    [ATF](0)[5.948270] -read_offset: 0x0
+INFO:    [ATF](0)[5.948776] -log_buf_end : 0x43e137ff
+INFO:    [ATF](0)[5.949368] -ATF_EXCEPT_BUF_SIZE_PER_CPU : 0x1000
+INFO:    [ATF](0)[5.950090] -ATF_EXCEPT_BUF_SIZE : 0x8000
+INFO:    [ATF](0)[5.950725] -PLATFORM_CORE_COUNT : 0x8
+INFO:    [ATF](0)[5.951329] -except_write_pos_per_cpu[0]: 0x43e34000
+INFO:    [ATF](0)[5.952082] -except_write_pos_per_cpu[1]: 0x43e35000
+INFO:    [ATF](0)[5.952836] -except_write_pos_per_cpu[2]: 0x43e36000
+INFO:    [ATF](0)[5.953590] -except_write_pos_per_cpu[3]: 0x43e37000
+INFO:    [ATF](0)[5.954344] -except_write_pos_per_cpu[4]: 0x43e38000
+INFO:    [ATF](0)[5.955098] -except_write_pos_per_cpu[5]: 0x43e39000
+INFO:    [ATF](0)[5.955852] -except_write_pos_per_cpu[6]: 0x43e3a000
+INFO:    [ATF](0)[5.956606] -except_write_pos_per_cpu[7]: 0x43e3b000
+INFO:    [ATF](0)[5.957359] -crash_flag : 0x41544641
+INFO:    [ATF](0)[5.957941] -crash_log_addr : 0x43e14000
+INFO:    [ATF](0)[5.958566] -crash_log_size : 0x20000
+INFO:    [ATF](0)[5.959162]ATF log service is registered (0x43e00000, aee:0x43e3c000)
+NOTICE:  [ATF](0)[5.960098]BL31: v1.6(debug):5c4a8b935-dirty
+NOTICE:  [ATF](0)[5.960766]BL31: Built : 14:20:14, Nov  1 2021
+NOTICE:  [ATF](0)[5.961455]BL31_BASE=0x42c01000, BL31_TZRAM_SIZE=0x1ff000
+NOTICE:  [ATF](0)[5.962263]BL31: v1.6(debug):5c4a8b935-dirty
+NOTICE:  [ATF](0)[5.962931]BL31: Built : 14:20:14, Nov  1 2021
+INFO:    [ATF](0)[5.963620]platform_setup_cpu()
+INFO:    [ATF](0)[5.964147]addr of cci_adb400_dcm_config: 0x0
+INFO:    [ATF](0)[5.964826]addr of sync_dcm_config: 0x0
+INFO:    [ATF](0)[5.965440]mp0_spmc: 0x0
+INFO:    [ATF](0)[5.965892]mp1_spmc: 0x0
+INFO:    [ATF](0)[5.966368]md_settle = 31200, settle = 31200
+INFO:    [ATF](0)[5.967035]mt_lp_resource_user_register register by SPM, uid = 0
+NOTICE:  [ATF](0)[5.967931]call pccif1_hw_init
+INFO:    [ATF](0)[5.968448]BL31: Initializing runtime services
+INFO:    [ATF](0)[5.969161]BL31: Preparing for EL3 exit to normal world
+INFO:    [ATF](0)[5.969947]Entry point address = 0x44000000
+INFO:    [ATF](0)[5.970604]SPSR = 0x1d3
+NOTICE:  [ATF](0)[5.971046]NS-SCR_EL3_EFIN=0x4
+void mblock_pl_boottag_hook(struct boot_tag *):1244: mblock_pl_boottag_hook init done
+void mblock_show_internal(int):114: mblock_magic:0x99999999 mblock_version:0x2
+void mblock_show_internal(int):124: mblock[0]->start: 0x40000000, size: 0x2880000
+void mblock_show_internal(int):124: mblock[1]->start: 0x42970000, size: 0x90000
+void mblock_show_internal(int):124: mblock[2]->start: 0x42c00000, size: 0x0
+void mblock_show_internal(int):124: mblock[3]->start: 0x42e00000, size: 0x200000
+void mblock_show_internal(int):124: mblock[4]->start: 0x43200000, size: 0xc00000
+void mblock_show_internal(int):124: mblock[5]->start: 0x43e40000, size: 0x1c0c0000
+void mblock_show_internal(int):124: mblock[6]->start: 0x5ff80000, size: 0x1fe30000
+void mblock_show_internal(int):124: mblock[7]->start: 0x7ffb0000, size: 0xf000
+void mblock_show_internal(int):124: mblock[8]->start: 0x80000000, size: 0x3ffff000
+void mblock_show_internal(int):136: mblock-R[0].start: 0xbffff000, size: 0x1000 map:0 name:dramc-rk0
+void mblock_show_internal(int):136: mblock-R[1].start: 0x7ffff000, size: 0x1000 map:0 name:emi_mbist_buf
+void mblock_show_internal(int):136: mblock-R[2].start: 0x7ffbf000, size: 0x40000 map:1 name:log_store
+void mblock_show_internal(int):136: mblock-R[3].start: 0x42c00000, size: 0x200000 map:0 name:atf-reserved
+void mblock_show_internal(int):136: mblock-R[4].start: 0x43e00000, size: 0x40000 map:0 name:atf-log-reserved
+void mblock_show_internal(int):136: mblock-R[5].start: 0x7feb0000, size: 0x100000 map:0 name:SSPM-reserved
+void mblock_show_internal(int):136: mblock-R[6].start: 0x7fdb0000, size: 0x100000 map:0 name:MCUPM-reserved
+void mblock_show_internal(int):136: mblock-R[7].start: 0x5ff00000, size: 0x80000 map:0 name:PICACHU
+void mblock_show_internal(int):136: mblock-R[8].start: 0x42880000, size: 0xe0000 map:0 name:pstore
+void mblock_show_internal(int):136: mblock-R[9].start: 0x42960000, size: 0x10000 map:0 name:minirdump
+void mblock_show_internal(int):136: mblock-R[10].start: 0x42a00000, size: 0x100000 map:1 name:pl-drambuf
+void mblock_show_internal(int):136: mblock-R[11].start: 0x42b00000, size: 0x100000 map:1 name:pl-boottag
+void mblock_show_internal(int):136: mblock-R[12].start: 0x43000000, size: 0x200000 map:1 name:aee-lk
+void mblock_show_internal(int):140: Total DRAM = 0x80000000
+[MBOOT_PARAMS] get ddr_reserve_state done
+mboot_params_info init hook: 0x11d000, 0x800, 0x1, 0xec0
+LOG_STORE_LK:lk log_store_init start.
+LOG_STORE_LK:sram 0x4011df00,log 0x0,sig 0x5678ef90,size 0x40000,pl size 0x7ba1@0x20,lk size 0x0@0x20!
+LOG_STORE_LK: buff ready.
+log_store: init log store addr:0x11df00, size: 0x100!
+[MBOOT_PARAMS]. atag(PL2LK): 0x11d000, 0x800, 0x1, 0xec0
+[MBOOT_PARAMS]. boot_arg(PL2LK): sram addr va(0x4011d000)
+[MBOOT_PARAMS]. start: 0x4011d000, size: 0x800
+[PMIC] pmic_key_regs_register: init done!
+[PMIC] pmic_psc_regs_register: init done!
+[PMIC] pmic_regu_regs_register: init done!
+
+welcome to lk
+
+boot args 0x42b00000 0x0 0x0 0x0
+INIT: cpu 0, calling hook 0x8402af4d (vm_preheap) at level 0x3ffff, flags 0x1
+initializing heap
+calling constructors
+INIT: cpu 0, calling hook 0x8402d01f (kcmdline_init) at level 0x40000, flags 0x1
+INIT: cpu 0, calling hook 0x8402b089 (vm) at level 0x50000, flags 0x1
+initializing mp
+initializing threads
+initializing timers
+initializing ports
+creating bootstrap completion thread
+top of bootstrap2()
+INIT: cpu 0, calling hook 0x8402cc51 (libdpc) at level 0x70000, flags 0x1
+initializing platform
+INIT: cpu 0, calling hook 0x8400820b (log_store_buf_map) at level 0x8ffff, flags 0x1
+LOG_STORE_LK:dram pl/lk log buff mapping start addr = 0x7ffbf000, size = 0x40000
+LOG_STORE_LK: dram map address 0x40000000.
+[msdc_init]: Host controller initialization start
+Transfer method: DMA
+MSDC0 HCLK_MUX[0x1000_0020][17:16] = 1, pdn = 0, CLK_MUX[0x1000_0020][26:24] = 1, pdn = 0, CLK_CG[0x1000_1094] bit2 = 0, bit6 = 0
+[SD0] Turn off card power
+[SD0] Turn on card power
+MSDC0 HCLK_MUX[0x1000_0020][17:16] = 1, pdn = 0, CLK_MUX[0x1000_0020][26:24] = 1, pdn = 0, CLK_CG[0x1000_1094] bit2 = 0, bit6 = 0
+MSDC0 MODE5[50005350] = 0x11111000	should: 0x11111???
+MSDC0 MODE6[50005360] = 0x1111111	should: 0x?1111111
+MSDC0 IES   [51e00030] = 0x1FFFFF	should: 0x????1FFE
+MSDC0 SMT   [51e000d0] = 0xFFFFF	should: 0x?????FFF
+MSDC0 TDSEL0_0[51e000f0] = 0x0,[51e00100] = 0x0should: 0x00000000, should: 0x????0000
+MSDC0 RDSEL0[51e00090] = 0x0, [51e000a0] = 0x0, [51e000b0] = 0x0
+should: 0x00000000 , should: 0x00000000 , should: 0x??????00
+MSDC0 DRV0  [51e00000] = 0x24924924,  [51e00010] = 0x24924Cshould: 0x?9249249, should: 0x???????9
+PUPD/R1/R0: dat/cmd:0/0/1, clk/dst: 1/1/0
+MSDC0 PUPD0 [51e00050] = 0x3F401	should: 0x?????401
+MSDC0 R0 [51e00070] = 0x3EBFE	should: 0x?????BFE
+MSDC0 R1 [51e00080] = 0x1401	should: 0x?????401
+start bit = 0, MSDC_CFG[0x200029b]
+CLK (384MHz), SCLK(0kHz) MODE(0) DIV(2) buswidth(1-bits)
+start bit = 0, MSDC_CFG[0x201729b]
+[MSDC] SET_CLK(260kHz): SCLK(259kHz) MODE(0) DIV(370) DS(0) RS(0) buswidth(1-bit)
+[msdc_init]: Host controller initialization done
+[mmc_init_card_stage1]: start
+start bit = 0, MSDC_CFG[0x201729b]
+[MSDC] SET_CLK(260kHz): SCLK(259kHz) MODE(0) DIV(370) DS(0) RS(0) buswidth(1-bit)
+[eMMC] Switched to High-Speed mode!
+start bit = 0, MSDC_CFG[0x200029b]
+[MSDC] SET_CLK(50000kHz): SCLK(48000kHz) MODE(0) DIV(2) DS(0) RS(0) buswidth(1-bit)
+CLK (384MHz), SCLK(48000kHz) MODE(0) DIV(2) buswidth(8-bits)
+[eMMC/SD] Size: 29820 MB, Max.Speed: 52000 kHz, blklen(512), nblks(61071360), ro(0)
+[eMMC/SD] Initialized
+[mmc_init_card_stage2]: finish successfully
+ =====Set boot Bus Width<2>=======
+ =====Set boot Bus mode<0>=======
+mbr partition table dump:
+	0: status 0x0, type 0xee, start 0x1, len 0x3a3dfff
+	1: status 0x0, type 0x0, start 0x0, len 0x0
+	2: status 0x0, type 0x0, start 0x0, len 0x0
+	3: status 0x0, type 0x0, start 0x0, len 0x0
+found GPT
+[PROFILE] ::: emmc_init() takes 60 ms
+[SBC] sec_func_init
+[SECLIB_IMG_VERIFY] Partition [preloader] does not exist.
+[SEC_INIT] sec_func_init -- fail to search rominfo
+[SBC] Fail to initialize sec function. (0x100008)
+[PROFILE] ::: lk_vb_init() takes 2 ms
+int search_mkimg(bdev_t *, const char *, union mkimg_hdr *, off_t *):44: partition doesn't contain dconfig image
+void dconfig_initenv(void):146: load_dconfig partition fail, size = -22
+[PROFILE] ::: dconfig_initenv() takes 2 ms
+[LK_AB] READ_PARTITION
+[LK_AB] magic=0x30424100, [0]=0x0f0201, [1]=0x000000
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : lk
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 434656
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : aee_lk
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 320808
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : lk_main_dtb
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 129291
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (129291)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] lk_main_dtb cert chain vfy pass
+otp ver:0
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image lk_main_dtb header auth pass
+void mblock_merge(void):219: Delete mblock[2]->start: 0x42c00000, size: 0x0
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0x42971000, sz: 0x1000 map:0 name:lk_secure_boot
+[ATF](0)[6.143340]GCPU Enhance,AF_V1.4
+[SBC] image lk_main_dtb auth pass
+[PROFILE] ::: fdt = load_device_tree() takes 66 ms
+[PROFILE] ::: mt_gpio_set_default(fdt) takes 1 ms
+[i2c] Invalid from dts, fall back to default
+[PROFILE] ::: i2c_hw_init(fdt) takes 2 ms
+[PROFILE] ::: mt_dcm_init(fdt) takes 1 ms
+leds init.
+[PROFILE] ::: leds_init(fdt) takes 9 ms
+leds set on level =  102
+get_led_index_by_name: i=0, name=lcd-backlight
+get_led_index_by_name: matched!
+int ddp_enable_module_clock(enum DISP_MODULE_ENUM):77: [LK_DDP/INFO]module:pwm0
+int ddp_enable_module_clock(enum DISP_MODULE_ENUM):135: [LK_DDP/INFO]enable pwm0 clk, CG0 0xfffc0000, CG1 0xfffefffe
+void disp_pwm_init(enum disp_pwm_id_t):112: [DISP][PWM] PWM_REG_READ_SET set reg[0x50000058] = 0x07000000 commit = 0x07000000
+void disp_pwm_init(enum disp_pwm_id_t):115: [DISP][PWM] PWM_REG_READ_SET set reg[0x50000054] = 0x00000000 commit = 0x00000000
+void disp_pwm_init(enum disp_pwm_id_t):116: [DISP][PWM] disp_pwm_init : CLK_CFG_4 0x2010101 => 0x10101
+void disp_pwm_clkmux_update(void):85: [DISP][PWM] PWM_REG_SET set reg[0x50000004] = 0x00080000
+void disp_pwm_init(enum disp_pwm_id_t):128: [DISP][PWM] disp_pwm_init : PWM config data (0,1)
+void disp_pwm_init(enum disp_pwm_id_t):132: [DISP][PWM] PWM_REG_READ_SET set reg[0x5100e018] = 0x00010000 commit = 0x00010102
+void disp_pwm_init(enum disp_pwm_id_t):133: [DISP][PWM] PWM_REG_SET set reg[0x5100e01c] = 0x000003ff
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):202: [DISP][PWM] disp_pwm_set_backlight(id = 0x1, level_1024 = 1023)
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):208: [DISP][PWM] PWM_REG_SET set reg[0x5100e00c] = 0x00000000
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):209: [DISP][PWM] PWM_REG_SET set reg[0x5100e01c] = 0x03ff03ff
+void disp_pwm_set_enabled(enum disp_pwm_id_t, int):159: [DISP][PWM] PWM_REG_SET set reg[0x5100e000] = 0x00000001
+void disp_pwm_set_enabled(enum disp_pwm_id_t, int):160: [DISP][PWM] disp_pwm_set_enabled: PWN_EN = 0x1
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):216: [DISP][PWM] PWM_REG_SET set reg[0x5100e00c] = 0x00000001
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):217: [DISP][PWM] PWM_REG_SET set reg[0x5100e00c] = 0x00000000
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e000] = 0x00000001
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e004] = 0x00000000
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e008] = 0x00000000
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e00c] = 0x00000000
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e010] = 0x00000001
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e014] = 0x00000000
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e018] = 0x00010102
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e01c] = 0x03ff03ff
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e020] = 0x00000000
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e024] = 0x00000000
+int disp_pwm_set_backlight(enum disp_pwm_id_t, int):220: [DISP][PWM] reg[0x5100e028] = 0x00000000
+[PROFILE] ::: leds_on() takes 33 ms
+struct disp_lcm_handle *disp_lcm_probe(char *, LCM_INTERFACE_ID, void *):425: [DISP]func|disp_lcm_probe
+lcm_get_params
+void _dump_lcm_info(struct disp_lcm_handle *):177: [DISPCHECK]******** dump lcm driver information ********
+void _dump_lcm_info(struct disp_lcm_handle *):180: [DISPCHECK][LCM], name: st7789v_dbi_c_4wire
+void _dump_lcm_info(struct disp_lcm_handle *):182: [DISPCHECK][LCM] resolution: 240 x 320
+void _dump_lcm_info(struct disp_lcm_handle *):183: [DISPCHECK][LCM] physical size: 59 x 79
+void _dump_lcm_info(struct disp_lcm_handle *):184: [DISPCHECK][LCM] physical size: 59 x 79
+void _dump_lcm_info(struct disp_lcm_handle *):185: [DISPCHECK][LCM] lcm_if:6, cmd_if:6
+void _dump_lcm_info(struct disp_lcm_handle *):207: [DISPCHECK][LCM] interface: DBI0
+void _dump_lcm_info(struct disp_lcm_handle *):216: [DISPCHECK][LCM] Type: DBI
+void _dump_lcm_info(struct disp_lcm_handle *):280: [DISPCHECK][LCM] DBI_CPU_WRITE_8_BITS
+int primary_display_get_width(void):811: [DISP]lcm handle is null, after probe:0x840850bc
+u32 DISP_GetVRamSize(void):1320: [DISP]^^ DISP_GetFBRamSize: 983040 bytes
+u32 DISP_GetVRamSize(void):1322: [DISP]^^ DAL_GetLayerSize: 0 bytes
+u32 DISP_GetVRamSize(void):1338: [DISP]^^ DISP_GetVRamSize: 983040 bytes
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0xbff0f000, sz: 0xf0000 map:0 name:framebuffer
+fb_va: 0x40200000, fb_pa: 0xbff0f000, fb_pa_k: 0xbff0f000
+int primary_display_init(char *, void *):541: [DISP]func|primary_display_init
+int dpmgr_init(void):981: [LK_DDP/ddp_manager]ddp manager init
+int primary_display_init(char *, void *):560: [DISPCHECK]disp_lcm_probe SUCCESS
+LCM_PARAMS *disp_lcm_get_params(struct disp_lcm_handle *):623: [DISP]func|disp_lcm_get_params
+int _build_path_direct_link(void):133: [DISP]func|_build_path_direct_link
+int acquire_mutex(enum DDP_SCENARIO_ENUM):167: [LK_DDP/ddp_manager]scenario primary_bypass_pq_dbi acquire mutex 0 , left mutex 0xe!
+void *dpmgr_create_path(enum DDP_SCENARIO_ENUM, void *):255: [LK_DDP/ddp_manager]create handle 0x84084878 on scenario primary_bypass_pq_dbi
+int _build_path_direct_link(void):146: [DISPCHECK]dpmgr create path SUCCESS(0x84084878)
+enum DISP_MODULE_ENUM _get_dst_module_by_lcm(struct disp_lcm_handle *):118: [DISP]lcm type is DBI
+int dpmgr_path_set_dst_module(void *, enum DISP_MODULE_ENUM):369: [LK_DDP/ddp_manager]set dst module on scenario primary_bypass_pq_dbi, module dbi0
+int ddp_set_dst_module(enum DDP_SCENARIO_ENUM, enum DISP_MODULE_ENUM):897: [LK_DDP/ddp_path]ddp_set_dst_module, scenario=primary_bypass_pq_dbi, dst_module=dbi0
+int ddp_set_dst_module(enum DDP_SCENARIO_ENUM, enum DISP_MODULE_ENUM):899: [LK_DDP/ddp_path]dbi0 is already on path
+int _build_path_direct_link(void):154: [DISPCHECK]dpmgr set dst module FINISHED(dbi0)
+int dpmgr_set_lcm_utils(void *, void *, void *):778: [LK_DDP/ddp_manager]path set lcm drv handle 0x84084878
+int dpmgr_set_lcm_utils(void *, void *, void *):783: [LK_DDP/ddp_manager]dbi0 set lcm utils
+int ddp_dbi_set_lcm_utils(enum DISP_MODULE_ENUM, LCM_DRIVER *):229: [LK_DDP/unknown][lk ddp_dbi: ddp_dbi_set_lcm_utils 229]
+int ddp_dbi_set_lcm_utils(enum DISP_MODULE_ENUM, LCM_DRIVER *):230: [DISP]func|ddp_dbi_set_lcm_utils
+int ddp_dbi_set_lcm_utils(enum DISP_MODULE_ENUM, LCM_DRIVER *):237: [LK_DDP/unknown]ddp_dbi_set_lcm_utils module == DISP_MODULE_DBI
+lcm_set_util_funcs
+int dpmgr_map_event_to_irq(void *, enum DISP_PATH_EVENT, enum DDP_IRQ_BIT):819: [LK_DDP/ddp_manager]map event 7 to irq 0x230010 on scenario primary_bypass_pq_dbi
+int primary_display_init(char *, void *):579: [DISPCHECK]primary display is DIRECT LINK MODE
+int primary_display_init(char *, void *):598: [DISPCHECK]primary display BUILD cmdq trigger loop finished
+int primary_display_init(char *, void *):602: [DISPCHECK]primary display START cmdq trigger loop finished
+int disp_lcm_is_video_mode(struct disp_lcm_handle *):883: [DISP]func|disp_lcm_is_video_mode
+int disp_lcm_is_video_mode(struct disp_lcm_handle *):891: [DISP]lcm_param->type:0
+int dpmgr_path_set_video_mode(void *, int):190: [LK_DDP/ddp_manager]set scenario primary_bypass_pq_dbi mode Cmd Mode
+int dpmgr_path_init(void *, int):397: [LK_DDP/ddp_manager]path init on scenario primary_bypass_pq_dbi
+int ddp_path_top_clock_on(void):1217: [LK_DDP/ddp_path]ddp path top clock on
+int ddp_enable_module_clock(enum DISP_MODULE_ENUM):77: [LK_DDP/INFO]module:sim_common
+int ddp_enable_module_clock(enum DISP_MODULE_ENUM):135: [LK_DDP/INFO]enable sim_common clk, CG0 0xfffc0000, CG1 0xfffefffe
+int ddp_path_top_clock_on(void):1221: [LK_DDP/ddp_path]ddp CG0:0xfffc0000 CG1:0xfffefffe
+int ddp_path_top_clock_on(void):1227: [LK_DDP/ddp_path][FPGA Only] before power on MMSYS:0xfffc0000,0xfffefffe,0xfffffffe
+int ddp_path_top_clock_on(void):1236: [LK_DDP/ddp_path][FPGA Only] before power on MMSYS:0x0,0x0,0x0
+int ddp_path_top_clock_on(void):1242: [LK_DDP/ddp_path]ddp CG0:0x0 CG1:0x0 CG2:0x0
+int ddp_path_top_clock_on(void):1245: [LK_DDP/ddp_path]SMI subcom before config:(0x2)
+int ddp_path_top_clock_on(void):1248: [LK_DDP/ddp_path]SMI subcom after config:(0xa)
+int ddp_path_m4u_off(void):1269: [LK_DDP/ddp_path]ddp_path_m4u_off
+int ddp_mutex_set_l(int, int *, enum DDP_MODE, void *):743: [LK_DDP/ddp_path]module ovl0 added to mutex 0
+int ddp_mutex_set_l(int, int *, enum DDP_MODE, void *):755: [LK_DDP/ddp_path]module_mutex_map[]: module:5, bit:4, mod_num:0, value0:0x10
+int ddp_mutex_set_l(int, int *, enum DDP_MODE, void *):743: [LK_DDP/ddp_path]module rdma0 added to mutex 0
+int ddp_mutex_set_l(int, int *, enum DDP_MODE, void *):755: [LK_DDP/ddp_path]module_mutex_map[]: module:7, bit:5, mod_num:0, value0:0x30
+int ddp_mutex_set_l(int, int *, enum DDP_MODE, void *):743: [LK_DDP/ddp_path]module pwm0 added to mutex 0
+int ddp_mutex_set_l(int, int *, enum DDP_MODE, void *):755: [LK_DDP/ddp_path]module_mutex_map[]: module:30, bit:14, mod_num:0, value0:0x4030
+int ddp_mutex_set_l(int, int *, enum DDP_MODE, void *):743: [LK_DDP/ddp_path]module dbi0 added to mutex 0
+int ddp_mutex_set_l(int, int *, enum DDP_MODE, void *):755: [LK_DDP/ddp_path]module_mutex_map[]: module:35, bit:13, mod_num:0, value0:0x6030
+int ddp_mutex_set_l(int, int *, enum DDP_MODE, void *):785: [LK_DDP/ddp_path]mutex 0 value=0x6030, sof=single, eof=single
+, ddp mode:1
+void ddp_connect_path(enum DDP_SCENARIO_ENUM, void *):1026: [LK_DDP/ddp_path]path connect on scenario primary_bypass_pq_dbi
+void ddp_connect_path_l(int *, void *):411: [LK_DDP/ddp_path]connect_path: ovl0 to dbi0
+void ddp_connect_path_l(int *, void *):434: [LK_DDP/ddp_path]connect mout ovl0 to rdma0  bits 0x1
+void ddp_connect_path_l(int *, void *):466: [LK_DDP/ddp_path]connect out_s rdma0 to dbi0, value=2
+void ddp_connect_path_l(int *, void *):493: [LK_DDP/ddp_path]connect in_s rdma0 to dbi0, value=1
+int ddp_enable_module_clock(enum DISP_MODULE_ENUM):77: [LK_DDP/INFO]module:ovl0
+int ddp_enable_module_clock(enum DISP_MODULE_ENUM):135: [LK_DDP/INFO]enable ovl0 clk, CG0 0x0, CG1 0x0
+int ddp_enable_module_clock(enum DISP_MODULE_ENUM):77: [LK_DDP/INFO]module:rdma0
+int ddp_enable_module_clock(enum DISP_MODULE_ENUM):135: [LK_DDP/INFO]enable rdma0 clk, CG0 0x0, CG1 0x0
+int ddp_dbi_init(enum DISP_MODULE_ENUM, void *):418: [DISP]func|ddp_dbi_init
+int ddp_dbi_init(enum DISP_MODULE_ENUM, void *):419: [LK_DDP/unknown][lk, module:dbi0 init]
+int ddp_enable_module_clock(enum DISP_MODULE_ENUM):77: [LK_DDP/INFO]module:dbi0
+int ddp_enable_module_clock(enum DISP_MODULE_ENUM):135: [LK_DDP/INFO]enable dbi0 clk, CG0 0x0, CG1 0x0
+int primary_display_init(char *, void *):637: [DISP]LK LCM_TYPE_DBI
+int dpmgr_path_config(void *, struct disp_ddp_path_config *, int):579: [LK_DDP/ddp_manager]path config ovl 0, rdma 0, wdma 0, dst 1 on handle 0x84084878 scenario primary_bypass_pq_dbi
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):448: [DISP]func|ddp_dbi_config
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):449: [LK_DDP/unknown][lk ddp_dbi: ddp_dbi_config 449]
+void _dump_dbi_params(LCM_DBI_PARAMS *):107: [LK_DDP/unknown][lk ddp_dbi: DBI serial clock base: 2
+enum DBI_STATUS _ddp_dbi_power_on(void):259: [LK_DDP/unknown]dbi clk[_ddp_dbi_power_on]: DBI serial clock base: 2
+enum DBI_STATUS _ddp_dbi_power_on(void):282: [LK_DDP/unknown]dbi clk[_ddp_dbi_power_on]: CLK_CFG_8=0x00010606, CLK_CFG_UPDATE1=0x00000010
+enum DBI_STATUS _dbi_gpio_pinmux(enum DISP_MODULE_ENUM, void *):293: [DISP]func|_dbi_gpio_pinmux
+enum DBI_STATUS _dbi_gpio_pinmux(enum DISP_MODULE_ENUM, void *):294: [LK_DDP/unknown][lk ddp_dbi: _dbi_gpio_pinmux 294]
+enum DBI_STATUS _dbi_gpio_pinmux(enum DISP_MODULE_ENUM, void *):305: [LK_DDP/unknown]lk dbi setting GPIO
+enum DBI_STATUS _dbi_gpio_pinmux(enum DISP_MODULE_ENUM, void *):306: [LK_DDP/unknown]lk dbi GPIO_BASE=0x50005000
+enum DBI_STATUS _dbi_gpio_pinmux(enum DISP_MODULE_ENUM, void *):307: [LK_DDP/unknown]lk dbi before setting: GPIO_BASE+300=0x00000000
+enum DBI_STATUS _dbi_gpio_pinmux(enum DISP_MODULE_ENUM, void *):322: [LK_DDP/unknown]after setting: GPIO_MODE25 = 0x21777000
+enum DBI_STATUS _dbi_gpio_pinmux(enum DISP_MODULE_ENUM, void *):323: [LK_DDP/unknown]after setting:  GPIO_MODE26 = 0x11222221
+enum DBI_STATUS _dbi_set_DrivingCurrent(enum DISP_MODULE_ENUM, void *):360: [DISP]func|_dbi_set_DrivingCurrent
+enum DBI_STATUS _dbi_set_DrivingCurrent(enum DISP_MODULE_ENUM, void *):361: [LK_DDP/unknown][lk ddp_dbi: _dbi_set_DrivingCurrent 361]
+enum DBI_STATUS _dbi_set_DrivingCurrent(enum DISP_MODULE_ENUM, void *):371: [LK_DDP/unknown][lk ddp_dbi: _dbi_set_DrivingCurrent] driving current: 65
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):474: [LK_DDP/unknown]_dbi_context.dbi_params.ctrl == LCM_CTRL_SERIAL_DBI
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):496: [LK_DDP/unknown]_dbi_context.serial.wire_num == LCM_DBI_C_4WIRE
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):509: [LK_DDP/unknown]dbi_params.data_format.color_order == LCM_COLOR_ORDER_RGB
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):524: [LK_DDP/unknown]LCM_DBI_FORMAT_RGB565
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):538: [LK_DDP/unknown]LCM_DBI_DATA_WIDTH_8BITS
+int disp_lcm_init(struct disp_lcm_handle *, void *):562: [DISP]func|disp_lcm_init
+int disp_lcm_init(struct disp_lcm_handle *, void *):576: [DISPCHECK]lcm init
+lcm_init
+void lcm_set_reset_pin(u32, void *):121: [LK_DDP/unknown][lk ddp_dbi: lcm_set_reset_pin , value: 1]
+void lcm_set_reset_pin(u32, void *):121: [LK_DDP/unknown][lk ddp_dbi: lcm_set_reset_pin , value: 0]
+void lcm_set_reset_pin(u32, void *):121: [LK_DDP/unknown][lk ddp_dbi: lcm_set_reset_pin , value: 1]
+init_lcm_registers
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0x1, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0x11, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0x36, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xc0, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0x3a, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x5, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0xb2, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xc, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xc, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x33, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x33, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0xb7, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x35, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0xbb, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x1c, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0xc2, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x1, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0xc3, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x55, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0xc4, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x20, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0xc6, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xf, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0xd0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xa4, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xa1, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0xe0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xd0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x5, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xd, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xf, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x2b, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x3b, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x44, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x4a, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x18, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xf, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xb, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x1f, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x22, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0xe1, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xd0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x5, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xd, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x10, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x2b, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x3d, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x54, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x50, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x2f, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x1f, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x1f, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x1f, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x23, ctrl=1]
+int disp_lcm_is_video_mode(struct disp_lcm_handle *):883: [DISP]func|disp_lcm_is_video_mode
+int disp_lcm_is_video_mode(struct disp_lcm_handle *):891: [DISP]lcm_param->type:0
+int dpmgr_enable_event(void *, enum DISP_PATH_EVENT):800: [LK_DDP/ddp_manager]enable event on scenario primary_bypass_pq_dbi, event 7, irtbit 0x230010
+int dpmgr_enable_event(void *, enum DISP_PATH_EVENT):800: [LK_DDP/ddp_manager]enable event on scenario primary_bypass_pq_dbi, event 1, irtbit 0x70004
+int primary_display_config_input(struct disp_input_config *):1072: [DISP]func|primary_display_config_input
+int dpmgr_path_is_busy(void *):753: [LK_DDP/ddp_manager]path check busy on scenario primary_bypass_pq_dbi
+int ddp_dbi_is_busy(enum DISP_MODULE_ENUM):763: [LK_DDP/unknown][lk ddp_dbi: ddp_dbi_is_busy 763]
+int ddp_dbi_is_busy(enum DISP_MODULE_ENUM):767: [DISP]dbi0 is idle
+int dpmgr_path_config(void *, struct disp_ddp_path_config *, int):579: [LK_DDP/ddp_manager]path config ovl 1, rdma 0, wdma 0, dst 0 on handle 0x84084878 scenario primary_bypass_pq_dbi
+int OVLConfig_l(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):1561: [LK_DDP/OVL]module 5,L3,en=1,src=0,fmt=16785410,addr=0xbff5f000,x=0,y=0,pitch=960,dst(0,0,240,320)
+int OVLConfig_l(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):1566: [LK_DDP/OVL]keyEn=0,key=0,aen=1,alpha=255
+int OVLLayerConfig(enum DISP_MODULE_ENUM, unsigned int, unsigned int, enum DpColorFormat, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char, void *):434: [LK_DDP/OVL]ovl0, layer=3, source=memory, off(x=0,y=0), dst(0,0,240,320), pitch=960, fmt=eBGRA8888
+int OVLLayerConfig(enum DISP_MODULE_ENUM, unsigned int, unsigned int, enum DpColorFormat, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char, void *):440: [LK_DDP/OVL]addr=bff5f000, keyEn=0, key=0, aen=1, alpha=255
+int OVLConfig_l(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):1599: [LK_DDP/OVL]module:5 OVL enable layer:0x8, regval:0x0
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):448: [DISP]func|ddp_dbi_config
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):449: [LK_DDP/unknown][lk ddp_dbi: ddp_dbi_config 449]
+int primary_display_config_input(struct disp_input_config *):1072: [DISP]func|primary_display_config_input
+int dpmgr_path_is_busy(void *):753: [LK_DDP/ddp_manager]path check busy on scenario primary_bypass_pq_dbi
+int ddp_dbi_is_busy(enum DISP_MODULE_ENUM):763: [LK_DDP/unknown][lk ddp_dbi: ddp_dbi_is_busy 763]
+int ddp_dbi_is_busy(enum DISP_MODULE_ENUM):767: [DISP]dbi0 is idle
+int dpmgr_path_config(void *, struct disp_ddp_path_config *, int):579: [LK_DDP/ddp_manager]path config ovl 1, rdma 0, wdma 0, dst 0 on handle 0x84084878 scenario primary_bypass_pq_dbi
+int OVLConfig_l(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):1561: [LK_DDP/OVL]module 5,L0,en=1,src=0,fmt=16785410,addr=0xbff0f000,x=0,y=0,pitch=1024,dst(0,0,240,320)
+int OVLConfig_l(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):1566: [LK_DDP/OVL]keyEn=0,key=0,aen=1,alpha=255
+int OVLLayerConfig(enum DISP_MODULE_ENUM, unsigned int, unsigned int, enum DpColorFormat, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char, void *):434: [LK_DDP/OVL]ovl0, layer=0, source=memory, off(x=0,y=0), dst(0,0,240,320), pitch=1024, fmt=eBGRA8888
+int OVLLayerConfig(enum DISP_MODULE_ENUM, unsigned int, unsigned int, enum DpColorFormat, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char, void *):440: [LK_DDP/OVL]addr=bff0f000, keyEn=0, key=0, aen=1, alpha=255
+int OVLConfig_l(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):1561: [LK_DDP/OVL]module 5,L3,en=1,src=0,fmt=16785410,addr=0xbff5f000,x=0,y=0,pitch=960,dst(0,0,240,320)
+int OVLConfig_l(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):1566: [LK_DDP/OVL]keyEn=0,key=0,aen=1,alpha=255
+int OVLLayerConfig(enum DISP_MODULE_ENUM, unsigned int, unsigned int, enum DpColorFormat, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char, void *):434: [LK_DDP/OVL]ovl0, layer=3, source=memory, off(x=0,y=0), dst(0,0,240,320), pitch=960, fmt=eBGRA8888
+int OVLLayerConfig(enum DISP_MODULE_ENUM, unsigned int, unsigned int, enum DpColorFormat, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned char, void *):440: [LK_DDP/OVL]addr=bff5f000, keyEn=0, key=0, aen=1, alpha=255
+int OVLConfig_l(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):1599: [LK_DDP/OVL]module:5 OVL enable layer:0x9, regval:0x8
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):448: [DISP]func|ddp_dbi_config
+int ddp_dbi_config(enum DISP_MODULE_ENUM, struct disp_ddp_path_config *, void *):449: [LK_DDP/unknown][lk ddp_dbi: ddp_dbi_config 449]
+int dpmgr_check_status(void *):854: [LK_DDP/ddp_manager]dpmgr_check_status: primary_bypass_pq_dbi, module_num 4
+void ddp_check_path(enum DDP_SCENARIO_ENUM):1058: [LK_DDP/ddp_path]path check path on scenario primary_bypass_pq_dbi
+void ddp_check_path_l(int *):518: [LK_DDP/ddp_path]check_path: ovl0 to dbi0
+void ddp_check_path_l(int *):632: [LK_DDP/ddp_path]path: ovl0 to dbi0 is connected
+void ddp_check_mutex(int, enum DDP_SCENARIO_ENUM, enum DDP_MODE):1071: [LK_DDP/ddp_path]check mutex 0 on scenario primary_bypass_pq_dbi
+void ovl_dump_analysis(enum DISP_MODULE_ENUM):1325: [LK_DDP/OVL]==DISP ovl0 ANALYSIS==
+void ovl_dump_analysis(enum DISP_MODULE_ENUM):1333: [LK_DDP/OVL]ovl_en=0,layer_enable(1,0,0,1),bg(w=240, h=320),void ovl_dump_analysis(enum DISP_MODULE_ENUM):1344: [LK_DDP/OVL]cur_pos(x=0,y=0),layer_hit(0,0,0,0),bg_mode=const,sta=0x1e
+void ovl_dump_layer_info(int, unsigned long):1311: [LK_DDP/OVL]layer0: w=240,h=320,x=0,y=0,pitch=1024,addr=0xbff0f000,fmt=eBGRA8888,source=memory,aen=1,alpha=255
+void ovl_dump_analysis(enum DISP_MODULE_ENUM):1358: [LK_DDP/OVL]ovl rdma0 status:(en=1, fifo_used 0, GMC=0x3ff03ff)
+void ovl_print_ovl_rdma_status(unsigned int):1285: [LK_DDP/OVL]wram_rst_cs:0x1,layer_greq:0x0,out_data:0x0,void ovl_print_ovl_rdma_status(unsigned int):1288: [LK_DDP/OVL]out_ready:0x0,out_valid:0x0,smi_busy:0x0,smi_greq:0x0
+void ovl_dump_analysis(enum DISP_MODULE_ENUM):1351: [LK_DDP/OVL]layer1: disabled
+void ovl_dump_analysis(enum DISP_MODULE_ENUM):1358: [LK_DDP/OVL]ovl rdma1 status:(en=0, fifo_used 0, GMC=0x3ff03ff)
+void ovl_print_ovl_rdma_status(unsigned int):1285: [LK_DDP/OVL]wram_rst_cs:0x1,layer_greq:0x0,out_data:0x0,void ovl_print_ovl_rdma_status(unsigned int):1288: [LK_DDP/OVL]out_ready:0x0,out_valid:0x0,smi_busy:0x0,smi_greq:0x0
+void ovl_dump_analysis(enum DISP_MODULE_ENUM):1351: [LK_DDP/OVL]layer2: disabled
+void ovl_dump_analysis(enum DISP_MODULE_ENUM):1358: [LK_DDP/OVL]ovl rdma2 status:(en=0, fifo_used 0, GMC=0x3ff03ff)
+void ovl_print_ovl_rdma_status(unsigned int):1285: [LK_DDP/OVL]wram_rst_cs:0x1,layer_greq:0x0,out_data:0x0,void ovl_print_ovl_rdma_status(unsigned int):1288: [LK_DDP/OVL]out_ready:0x0,out_valid:0x0,smi_busy:0x0,smi_greq:0x0
+void ovl_dump_layer_info(int, unsigned long):1311: [LK_DDP/OVL]layer3: w=240,h=320,x=0,y=0,pitch=960,addr=0xbff5f000,fmt=eBGRA8888,source=memory,aen=1,alpha=255
+void ovl_dump_analysis(enum DISP_MODULE_ENUM):1358: [LK_DDP/OVL]ovl rdma3 status:(en=1, fifo_used 0, GMC=0x3ff03ff)
+void ovl_print_ovl_rdma_status(unsigned int):1285: [LK_DDP/OVL]wram_rst_cs:0x1,layer_greq:0x0,out_data:0x0,void ovl_print_ovl_rdma_status(unsigned int):1288: [LK_DDP/OVL]out_ready:0x0,out_valid:0x0,smi_busy:0x0,smi_greq:0x0
+void ovl_printf_status(unsigned int):1221: [LK_DDP/OVL]=OVL_FLOW_CONTROL_DEBUG=:
+void ovl_printf_status(unsigned int):1226: [LK_DDP/OVL]addcon_idle:1,blend_idle:1,out_valid:0,out_ready:0,out_idle:1
+void ovl_printf_status(unsigned int):1231: [LK_DDP/OVL]rdma3_idle:1,rdma2_idle:1,rdma1_idle:1, rdma0_idle:1,rst:0
+void ovl_printf_status(unsigned int):1236: [LK_DDP/OVL]trig:0,frame_hwrst_done:0,frame_swrst_done:0,frame_underrun:0,frame_done:0
+void ovl_printf_status(unsigned int):1241: [LK_DDP/OVL]ovl_running:0,ovl_start:0,ovl_clr:0,reg_update:0,ovl_upd_reg:0
+void ovl_printf_status(unsigned int):1243: [LK_DDP/OVL]ovl_fms_state:
+void ovl_printf_status(unsigned int):1246: [LK_DDP/OVL]idle
+void rdma_dump_analysis(enum DISP_MODULE_ENUM):936: [LK_DDP/RDMA]== DISP RDMA0 ANALYSIS ==
+void rdma_dump_analysis(enum DISP_MODULE_ENUM):946: [LK_DDP/RDMA]rdma0: en=0,memory_mode=0,smi_busy=0,w=240,h=320,pitch=0,addr=0x0,fmt=rgb565
+void rdma_dump_analysis(enum DISP_MODULE_ENUM):957: [LK_DDP/RDMA]fifo_min=16383, in_p=0, in_l=0,out_p=0,out_l=0,bg(t0,b0,l0,r0)
+int ddp_dump_analysis(enum DISP_MODULE_ENUM):1586: [LK_DDP/DUMP]no dump_analysis for module dbi0(35)
+void mmsys_config_dump_analysis(void):743: [LK_DDP/DUMP]== DISP MMSYS_CONFIG ANALYSIS ==
+void mmsys_config_dump_analysis(void):773: [LK_DDP/DUMP]clock on modules:mmsys_mutex0, mmsys_apb_bus, mdp_rsz0, disp_gamma0, mdp_wrot0, disp_color0, disp_ccorr0, disp_aal0, disp_rdma0, mdp_rdma0, mmsys_fake_eng0, disp_dither0, disp_wdma0, mdp_tdshp0, disp_ovl0, disp_dbpi0_cg, disp_dsi0, mmsys_smi_common, smi_iommu,
+void mmsys_config_dump_analysis(void):776: [LK_DDP/DUMP]valid0=0x0,valid1=0x0,valid2=0x0,ready0=0x0,ready1=0x0,ready2=0x0
+void mmsys_config_dump_analysis(void):778: [LK_DDP/DUMP]greq0=00,greq1=00
+void mmsys_config_dump_analysis(void):780: [LK_DDP/DUMP]valid3=0xa,valid4=0x0,valid5=0x0,ready3=0x0,ready4=0x0,ready5=0x0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: afbc_wdma0_sel__to__disp_ufbc_wdma0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_aal0__to__disp_gamma0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_aal0_sel__to__disp_aal0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ccorr0__to__disp_ccorr0_sout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ccorr0_sout_out0__to__disp_mdp_aal4_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ccorr0_sout_out1__to__disp_aal0_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_color0__to__disp_ccorr0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_dither0__to__disp_dither0_mout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_dither0_mout_out0__to__dsi0_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_dither0_mout_out1__to__disp_dsc_wrap0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_dither0_mout_out2__to__disp_wdma0_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_dither0_mout_out3__to__afbc_wdma0_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_dsc_wrap0__to__dsi0_sel_in2
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_gamma0__to__disp_postmask0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_mdp_aal4_mdp_hdr4_sel__to__mdp_rsz4
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_mdp_aal4_sel__to__mdp_aal4
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_mdp_aal4_sout_out0__to__disp_aal0_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_mdp_aal4_sout_out1__to__disp_mdp_aal4_mdp_hdr4_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_mdp_tdshp4_sout_out0__to__disp_ovl0_2l_ufod_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_mdp_tdshp4_sout_out1__to__disp_ovl0_ufod_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_mdp_tdshp4_sout_out2__to__disp_ovl0_2l_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_mdp_tdshp4_sout_out3__to__disp_ovl0_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl0_2l_out0__to__disp_tovl0_out0_mout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl0_2l_out1__to__disp_ovl0_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl0_2l_ufod_sel__to__disp_ovl0_2l_in2
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl0_out0__to__disp_tovl0_out1_mout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl0_out1__to__disp_ovl0_2l_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl0_ovl0_2l_pqout_sel__to__disp_tovl0_pqout_mdp_rdma4_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl0_ufod_sel__to__disp_ovl0_in2
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl2_2l__to__disp_ovl2_2l_out0_mout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl2_2l_out0_mout_out0__to__disp_rdma4
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl2_2l_out0_mout_out1__to__disp_wdma0_sel_in4
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_ovl2_2l_out0_mout_out2__to__afbc_wdma0_sel_in4
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_postmask0__to__disp_dither0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rdma0__to__disp_rdma0_rsz0_sout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rdma0_rsz0_sout_out0__to__dsi0_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rdma0_rsz0_sout_out1__to__disp_color0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rdma0_sel__to__disp_rdma0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rdma2_rsz0_rsz1_sout_out0__to__disp_ovl0_2l_ufod_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rdma2_rsz0_rsz1_sout_out1__to__disp_ovl0_ufod_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rdma4__to__disp_dpi0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rsz0__to__disp_rsz0_mout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rsz0_mout_out0__to__disp_rdma0_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rsz0_mout_out1__to__disp_wdma0_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rsz0_mout_out2__to__afbc_wdma0_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rsz0_mout_out3__to__disp_rdma2_rsz0_rsz1_sout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rsz0_mout_out4__to__disp_tovl0_pqout_mdp_rdma4_sel_in2
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_rsz0_sel__to__disp_rsz0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_out0_mout_out0__to__disp_rdma0_sel_in3
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_out0_mout_out1__to__disp_rsz0_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_out0_mout_out2__to__disp_wdma0_sel_in2
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_out0_mout_out3__to__afbc_wdma0_sel_in2
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_out0_mout_out4__to__disp_ovl0_ovl0_2l_pqout_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_out1_mout_out0__to__disp_rdma0_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_out1_mout_out1__to__disp_rsz0_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_out1_mout_out2__to__disp_wdma0_sel_in3
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_out1_mout_out3__to__afbc_wdma0_sel_in3
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_out1_mout_out4__to__disp__ovl0_ovl0_2l_pqout_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_tovl0_pqout_mdp_rdma4_sel__to__mdp_hdr4
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_wdma0_sel__to__disp_wdma0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_y2r0__to__disp_y2r0_sout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_y2r0_sout_out0__to__disp_mdp_tdshp4_sout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: disp_y2r0_sout_out1__to__disp_rdma0_sel_in2
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: dsi0_sel__to__thp_lmt_dsi0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: mdp_aal4__to__disp_mdp_aal4_sout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: mdp_aal4_sout_out0__to__disp_mdp_aal4_mdp_hdr4_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: mdp_aal4_sout_out1__to__disp_mdp_aal4_sel_in1
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: mdp_color4__to__disp_y2r0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: mdp_hdr4__to__mdp_aal4_sout
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: mdp_rmda4__to__disp_tovl0_pqout_mdp_rdma4_sel_in0
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: mdp_rsz4__to__mdp_tdshp4
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: mdp_tdshp4__to__mdp_color4
+void mmsys_config_dump_analysis(void):802: [LK_DDP/DUMP]n,n: thp_lmt_dsi0__to__dsi0
+void mmsys_config_dump_analysis(void):830: [LK_DDP/DUMP]
+void mutex_dump_analysis(void):436: [LK_DDP/DUMP]== DISP Mutex Analysis ==
+void mutex_dump_analysis(void):466: [LK_DDP/DUMP]MUTEX0 :SOF=single,EOF=single,WAIT=0,module=(disp_dither0,disp_gamma0,mdp_rsz0,mdp_rdma0,)
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):792: [LK_DDP/OVL]-- ovl0 Golden Setting --
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):793: [LK_DDP/OVL]RDMA0_MEM_GMC_SETTING1
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):804: [LK_DDP/OVL][9:0]:3ff [25:16]:3ff [28]:0 [31]:0
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):807: [LK_DDP/OVL]RDMA0_FIFO_CTRL
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):812: [LK_DDP/OVL][9:0]:0 [25:16]:288
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):814: [LK_DDP/OVL]RDMA0_MEM_GMC_SETTING2
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):825: [LK_DDP/OVL][11:0]:191 [27:16]:95 [28]:0 [29]:1 [30]:0
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):827: [LK_DDP/OVL]OVL_RDMA_BURST_CON1
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):830: [LK_DDP/OVL][28]:0
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):832: [LK_DDP/OVL]RDMA_GREQ_NUM
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):845: [LK_DDP/OVL][3:0]5 [7:4]5 [11:8]5 [15:12]5 [23:16]ff [26:24]1
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):857: [LK_DDP/OVL][27]0 [28]1 [29]1 [30]1 [31]1
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):859: [LK_DDP/OVL]RDMA_GREQ_URG_NUM
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):872: [LK_DDP/OVL][3:0]:5 [7:4]:5 [11:8]:5 [15:12]:5 [25:16]:0 [28]:0
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):874: [LK_DDP/OVL]RDMA_ULTRA_SRC
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):885: [LK_DDP/OVL][1:0]0 [3:2]0 [5:4]0 [7:6]1 [9:8]0
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):892: [LK_DDP/OVL][11:10]0 [13:12]0 [15:14]2
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):895: [LK_DDP/OVL]RDMA0_BUF_LOW
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):900: [LK_DDP/OVL][11:0]:0 [23:12]:0
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):902: [LK_DDP/OVL]RDMA0_BUF_HIGH
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):907: [LK_DDP/OVL][23:12]:0 [31]:1
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):909: [LK_DDP/OVL]OVL_EN
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):914: [LK_DDP/OVL][18]:0 [19]:0
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):917: [LK_DDP/OVL]DATAPATH_CON
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):928: [LK_DDP/OVL][0]:0, [3]:0 [24]:1 [25]:0 [26]:0
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):930: [LK_DDP/OVL]OVL_FBDC_CFG1
+void ovl_dump_golden_setting(enum DISP_MODULE_ENUM):932: [LK_DDP/OVL][24]:0
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):766: [LK_DDP/RDMA]RDMA0 golden setting
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):779: [LK_DDP/RDMA]GMC_SETTING_0 [11:0]:13 [27:16]:14 [30]:1 [31]:0
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):789: [LK_DDP/RDMA]GMC_SETTING_1 [11:0]:12 [27:16]:13 [30]:1 [31]:0
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):792: [LK_DDP/RDMA]GMC_SETTING_2 [11:0]:256
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):799: [LK_DDP/RDMA]FIFO_CON [11:0]:13 [27:16]:1024 [31]:1
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):804: [LK_DDP/RDMA]THRSHOLD_SODI [11:0]:17 [27:16]:980
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):809: [LK_DDP/RDMA]THRSHOLD_DVFS [11:0]:13 [27:16]:14
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):811: [LK_DDP/RDMA]SRAM_SEL [0]:0
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):816: [LK_DDP/RDMA]DVFS_SETTING_PREULTRA [11:0]:17 [27:16]:18
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):821: [LK_DDP/RDMA]DVFS_SETTING_ULTRA [11:0]:16 [27:16]:17
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):826: [LK_DDP/RDMA]LEAVE_DRS_SETTING [11:0]:15 [27:16]:15
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):831: [LK_DDP/RDMA]ENTER_DRS_SETTING [11:0]:17 [27:16]:17
+void rdma_dump_golden_setting(enum DISP_MODULE_ENUM):836: [LK_DDP/RDMA]GMC_SETTING_3 [11:0]:5 [27:16]:6
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1424: [LK_DDP/DUMP]== START: DISP DBI registers ==
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1427: [LK_DDP/DUMP][arbiter]Address: 0x51F30014, Value: 0x00011430
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1431: [LK_DDP/DUMP][GPIO_MODE25]Address: 0x50005490, Value: 0x21777000
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1433: [LK_DDP/DUMP][GPIO_MODE26]Address: 0x500054A0, Value: 0x11222221
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1435: [LK_DDP/DUMP][GPIO_MODE27]Address: 0x500054B0, Value: 0x11111111
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1439: [LK_DDP/DUMP][Driving]Address: 0x51F00010, Value: 0x00012480
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1443: [LK_DDP/DUMP][DBI_INTEN]Address: 0x5400F004, Value: 0x00000039
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1445: [LK_DDP/DUMP][DBI_INTSTA]Address: 0x5400F008, Value: 0x00000000
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1447: [LK_DDP/DUMP][DBI_START]Address: 0x5400F00C, Value: 0x00000000
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1449: [LK_DDP/DUMP][DBI_TECON]Address: 0x5400F040, Value: 0x00000000
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1451: [LK_DDP/DUMP][DBI_ROICON]Address: 0x5400F060, Value: 0x00000011
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1453: [LK_DDP/DUMP][DBI_ROI_CADD]Address: 0x5400F064, Value: 0x00000080
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1455: [LK_DDP/DUMP][DBI_ROI_DADD]Address: 0x5400F068, Value: 0x00000090
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1457: [LK_DDP/DUMP][DBI_ROI_SIZE]Address: 0x5400F06C, Value: 0x014000F0
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1459: [LK_DDP/DUMP][DBI_PATTERN]Address: 0x5400F0E8, Value: 0x00000000
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1463: [LK_DDP/DUMP][DBI_PCNF0]Address: 0x5400F030, Value: 0x00000000
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1465: [LK_DDP/DUMP][DBI_PDW]Address: 0x5400F03C, Value: 0x00000000
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1469: [LK_DDP/DUMP][DBI_SCNF]Address: 0x5400F028, Value: 0x11000040
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1471: [LK_DDP/DUMP][DBI_SIF_TIMING0]Address: 0x5400F01C, Value: 0x00007700
+void dbi_dump_reg(enum DISP_MODULE_ENUM):1473: [LK_DDP/DUMP]-- END: DISP DBI registers --
+void mmsys_config_dump_reg(void):475: [LK_DDP/DUMP]== START: DISP MMSYS_CONFIG registers ==
+void mmsys_config_dump_reg(void):480: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0000=0x00000000, 0x0004=0x00000000, 0x000c=0x00000000, 0x0010=0x00000000
+void mmsys_config_dump_reg(void):485: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0014=0x00000000, 0x0018=0x00000000, 0x0020=0x00000000, 0x0024=0x00000000
+void mmsys_config_dump_reg(void):490: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0028=0x00000000, 0x002c=0x00000000, 0x0030=0x00000000, 0x0034=0x00000000
+void mmsys_config_dump_reg(void):495: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0038=0x00000000, 0x0048=0x00000000, 0x00f0=0x0000f002, 0x00f4=0x00000000
+void mmsys_config_dump_reg(void):500: [LK_DDP/DUMP]MMSYS_CONFIG: 0x00f8=0x00000000, 0x0100=0x00000000, 0x0104=0x00000000, 0x0108=0x00000000
+void mmsys_config_dump_reg(void):505: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0110=0x00000000, 0x0114=0x00000000, 0x0118=0x00000000, 0x0120=0x00000000
+void mmsys_config_dump_reg(void):510: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0124=0x00000000, 0x0128=0x00000000, 0x0130=0xffffffff, 0x0134=0x00000000
+void mmsys_config_dump_reg(void):515: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0138=0x00000000, 0x0140=0xffffffff, 0x0144=0x00000000, 0x0150=0x00000000
+void mmsys_config_dump_reg(void):520: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0180=0x00000000, 0x0184=0x00000000, 0x0190=0x00000000, 0x0200=0x00000000
+void mmsys_config_dump_reg(void):525: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0204=0x00000000, 0x0208=0x00000000, 0x020c=0x00000000, 0x0210=0x00000000
+void mmsys_config_dump_reg(void):530: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0214=0x00000000, 0x0218=0x00001100, 0x0220=0x00000000, 0x0224=0x00000000
+void mmsys_config_dump_reg(void):535: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0228=0x00000000, 0x022c=0x00000000, 0x0230=0x00000000, 0x0234=0x00000000
+void mmsys_config_dump_reg(void):540: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0238=0x00000000, 0x0800=0x00000000, 0x0804=0x00000000, 0x0808=0x00000001
+void mmsys_config_dump_reg(void):545: [LK_DDP/DUMP]MMSYS_CONFIG: 0x080c=0x00000000, 0x0810=0x00000000, 0x0814=0x00000000, 0x0818=0x00000000
+void mmsys_config_dump_reg(void):550: [LK_DDP/DUMP]MMSYS_CONFIG: 0x081c=0x00000000, 0x0820=0x00000000, 0x0824=0x00000000, 0x0828=0x00000000
+void mmsys_config_dump_reg(void):555: [LK_DDP/DUMP]MMSYS_CONFIG: 0x082c=0x00000000, 0x0830=0x00000000, 0x0834=0x00000000, 0x0838=0x00000000
+void mmsys_config_dump_reg(void):560: [LK_DDP/DUMP]MMSYS_CONFIG: 0x083c=0x00000000, 0x0840=0x00000000, 0x0844=0x00000000, 0x0848=0x00000000
+void mmsys_config_dump_reg(void):565: [LK_DDP/DUMP]MMSYS_CONFIG: 0x084c=0x00000000, 0x0854=0x00000000, 0x0858=0x00000000, 0x085c=0x00000000
+void mmsys_config_dump_reg(void):570: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0860=0x00000000, 0x0864=0x00000000, 0x0868=0x00000000, 0x0870=0x00000000
+void mmsys_config_dump_reg(void):575: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0874=0x00000000, 0x0878=0x00000000, 0x088c=0x00000000, 0x0890=0x00000000
+void mmsys_config_dump_reg(void):580: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0894=0x00000000, 0x0898=0x00000000, 0x089c=0x00000000, 0x08a0=0x00000000
+void mmsys_config_dump_reg(void):585: [LK_DDP/DUMP]MMSYS_CONFIG: 0x08a4=0x00000000, 0x08a8=0x00000000, 0x08ac=0x00000000, 0x08b0=0x00000000
+void mmsys_config_dump_reg(void):590: [LK_DDP/DUMP]MMSYS_CONFIG: 0x08b4=0x00000000, 0x08b8=0x00000000, 0x08c0=0x00000000, 0x08c4=0x00000000
+void mmsys_config_dump_reg(void):595: [LK_DDP/DUMP]MMSYS_CONFIG: 0x08cc=0x00000000, 0x08d0=0x00000000, 0x08d4=0x00000000, 0x08d8=0x00000000
+void mmsys_config_dump_reg(void):600: [LK_DDP/DUMP]MMSYS_CONFIG: 0x08dc=0x00000000, 0x08e0=0x00000000, 0x08e4=0x00000000, 0x08e8=0x00000000
+void mmsys_config_dump_reg(void):605: [LK_DDP/DUMP]MMSYS_CONFIG: 0x08ec=0x00000000, 0x08f0=0x00000000, 0x0908=0x00000000, 0x090c=0x00000000
+void mmsys_config_dump_reg(void):610: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0910=0x00000000, 0x0914=0x00000000, 0x0918=0x00000000, 0x091c=0x00000000
+void mmsys_config_dump_reg(void):615: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0920=0x00000000, 0x0924=0x00000000, 0x0928=0x00000000, 0x0934=0x00000000
+void mmsys_config_dump_reg(void):620: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0938=0x00000000, 0x093c=0x00000000, 0x0940=0x00000000, 0x0944=0x00000000
+void mmsys_config_dump_reg(void):625: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0e00=0x00000000, 0x0e04=0x00000000, 0x0e08=0x00000000, 0x0e0c=0x00000000
+void mmsys_config_dump_reg(void):630: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0e10=0x00000000, 0x0e14=0x00000000, 0x0e18=0x00000000, 0x0e1c=0x00000000
+void mmsys_config_dump_reg(void):635: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0e70=0x00000000, 0x0e74=0x00000000, 0x0e78=0x00000000, 0x0e7c=0x00000000
+void mmsys_config_dump_reg(void):640: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0e80=0x00000000, 0x0e84=0x00000000, 0x0e88=0x00000000, 0x0e8c=0x00000000
+void mmsys_config_dump_reg(void):645: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0e90=0x00000000, 0x0e94=0x00000000, 0x0e98=0x00000000, 0x0e9c=0x00000000
+void mmsys_config_dump_reg(void):650: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0ea0=0x00000000, 0x0ea4=0x00000000, 0x0ea8=0x00000000, 0x0eac=0x00000000
+void mmsys_config_dump_reg(void):655: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0eb0=0x00000000, 0x0eb4=0x00000000, 0x0eb8=0x00000000, 0x0ebc=0x00000000
+void mmsys_config_dump_reg(void):660: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0f00=0x00000000, 0x0f04=0x00000000, 0x0f08=0x00000000, 0x0f0c=0x00000000
+void mmsys_config_dump_reg(void):665: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0f10=0x00000000, 0x0f14=0x00000000, 0x0f18=0x00000001, 0x0f1c=0x00000002
+void mmsys_config_dump_reg(void):670: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0f20=0x00000000, 0x0f24=0x00000000, 0x0f28=0x00000001, 0x0f2c=0x00000000
+void mmsys_config_dump_reg(void):675: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0f30=0x00000000, 0x0f34=0x00000000, 0x0f38=0x00000000, 0x0f3c=0x00000000
+void mmsys_config_dump_reg(void):680: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0f40=0x00000000, 0x0f44=0x00000000, 0x0f48=0x00000000, 0x0f4c=0x00000000
+void mmsys_config_dump_reg(void):685: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0f50=0x00000000, 0x0f54=0x00000000, 0x0f58=0x00000000, 0x0f5c=0x00000000
+void mmsys_config_dump_reg(void):690: [LK_DDP/DUMP]MMSYS_CONFIG: 0x0f60=0x00000000, 0x0f64=0x00000000, 0x0f68=0x00000000, 0x0f6c=0x00000000
+void mmsys_config_dump_reg(void):691: [LK_DDP/DUMP]-- END: DISP MMSYS_CONFIG registers --
+void mutex_dump_reg(void):331: [LK_DDP/DUMP]== START: DISP MUTEX registers ==
+void mutex_dump_reg(void):336: [LK_DDP/DUMP]MUTEX: 0x0000=0x00000000, 0x0004=0x00000000, 0x0008=0x00000001, 0x000c=0x00000000
+void mutex_dump_reg(void):341: [LK_DDP/DUMP]MUTEX: 0x0010=0x00000000, 0x0018=0x00000000, 0x001c=0x00000000, 0x0020=0x00000000
+void mutex_dump_reg(void):346: [LK_DDP/DUMP]MUTEX: 0x0024=0x00000000, 0x0028=0x00000000, 0x002c=0x00000000, 0x0030=0x00006030
+void mutex_dump_reg(void):351: [LK_DDP/DUMP]MUTEX: 0x0040=0x00000000, 0x0044=0x00000000, 0x0048=0x00000000, 0x004c=0x00000000
+void mutex_dump_reg(void):356: [LK_DDP/DUMP]MUTEX: 0x0050=0x00000000, 0x0060=0x00000000, 0x0064=0x00000000, 0x0068=0x00000000
+void mutex_dump_reg(void):361: [LK_DDP/DUMP]MUTEX: 0x006c=0x00000000, 0x0070=0x00000000, 0x0080=0x00000000, 0x0084=0x00000000
+void mutex_dump_reg(void):366: [LK_DDP/DUMP]MUTEX: 0x0088=0x00000000, 0x008c=0x00000000, 0x0090=0x00000000, 0x00a0=0x00000000
+void mutex_dump_reg(void):371: [LK_DDP/DUMP]MUTEX: 0x00a4=0x00000000, 0x00a8=0x00000000, 0x00ac=0x00000000, 0x00b0=0x00000000
+void mutex_dump_reg(void):376: [LK_DDP/DUMP]MUTEX: 0x00c0=0x00000000, 0x00c4=0x00000000, 0x00c8=0x00000000, 0x00cc=0x00000000
+void mutex_dump_reg(void):381: [LK_DDP/DUMP]MUTEX: 0x00d0=0x00000000, 0x00e0=0x00000000, 0x00e4=0x00000000, 0x00e8=0x00000000
+void mutex_dump_reg(void):386: [LK_DDP/DUMP]MUTEX: 0x00ec=0x00000000, 0x00f0=0x00000000, 0x0100=0x00000000, 0x0104=0x00000000
+void mutex_dump_reg(void):391: [LK_DDP/DUMP]MUTEX: 0x0108=0x00000000, 0x010c=0x00000000, 0x0110=0x00000000, 0x0120=0x00000000
+void mutex_dump_reg(void):396: [LK_DDP/DUMP]MUTEX: 0x0124=0x00000000, 0x0128=0x00000000, 0x012c=0x00000000, 0x0130=0x00000000
+void mutex_dump_reg(void):401: [LK_DDP/DUMP]MUTEX: 0x0140=0x00000000, 0x0144=0x00000000, 0x0148=0x00000000, 0x014c=0x00000000
+void mutex_dump_reg(void):406: [LK_DDP/DUMP]MUTEX: 0x0150=0x00000000, 0x0160=0x00000000, 0x0164=0x00000000, 0x0168=0x00000000
+void mutex_dump_reg(void):411: [LK_DDP/DUMP]MUTEX: 0x016c=0x00000000, 0x0170=0x00000000, 0x0180=0x00000000, 0x0184=0x00000000
+void mutex_dump_reg(void):416: [LK_DDP/DUMP]MUTEX: 0x0188=0x00000000, 0x018c=0x00000000, 0x0190=0x00000000, 0x0300=0x00000000
+void mutex_dump_reg(void):419: [LK_DDP/DUMP]MUTEX: 0x0304=0x00000000, 0x030c=0x00000000
+void mutex_dump_reg(void):420: [LK_DDP/DUMP]-- END: DISP MUTEX registers --
+void mt_disp_init(void *, void *, void *):515: [DISP]mt_disp_init done
+int mblock_free_with_size(u64, u64):744: start bff0f000 size: f0000
+[PROFILE] ::: disp_init(fdt) takes 783 ms
+void arc_disp_show_boot_logo(void): entry
+int arc_lk_logo_memory_init(void **, void **):374: Size of framebuffer = 327680
+void init_fb_screen(struct LCM_SCREEN_T *):142: MTK_LCM_PHYSICAL_ROTATION = 0
+void sync_anim_version(void *):109: pinfo[0]=0x0000000a, pinfo[1]=0x840670fc, pinfo[2]=4
+void sync_anim_version(void *):111: define ANIMATION_NEW: show new animation with capacity num
+void sync_anim_version(void *):112: CAPACITY_LEFT =387, CAPACITY_TOP =922
+void sync_anim_version(void *):113: LCM_HEIGHT=691, LCM_WIDTH=1413
+logo:1 fb dump: 0xff000000, 0xff000000, 0xff000000, 0xff000000
+int __primary_display_trigger(int, _Bool):962: [DISP]func|__primary_display_trigger
+int dpmgr_path_is_busy(void *):753: [LK_DDP/ddp_manager]path check busy on scenario primary_bypass_pq_dbi
+int ddp_dbi_is_busy(enum DISP_MODULE_ENUM):763: [LK_DDP/unknown][lk ddp_dbi: ddp_dbi_is_busy 763]
+int ddp_dbi_is_busy(enum DISP_MODULE_ENUM):767: [DISP]dbi0 is idle
+int __primary_display_trigger(int, _Bool):993: [DISPCHECK]trigger mode: DIRECT_LINK
+int disp_lcm_update(struct disp_lcm_handle *, int, int, int, int, int):726: [DISPCHECK](x=0,y=0),(w=240,h=320)
+lcm_update,x=0,y=0,width=240,height=320
+lcm_update, h_X_start:0x0, l_X_start:0x0, h_X_end:0x0, l_X_end:0xef
+lcm_update, h_Y_start:0x0, l_Y_start:0x0, h_Y_end:0x1, l_Y_end:0x3f
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0x2a, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0xef, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0x2b, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x0, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x1, ctrl=1]
+void lcm_send_data(unsigned int):156: [LK_DDP/unknown][lk ddp_dbi: lcm_send_data 0x3f, ctrl=1]
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0x2c, ctrl=1]
+int dpmgr_path_start(void *, int):478: [LK_DDP/ddp_manager]path start on scenario primary_bypass_pq_dbi
+int ddp_dbi_start(enum DISP_MODULE_ENUM, void *):667: [DISP]func|ddp_dbi_start
+int ddp_dbi_start(enum DISP_MODULE_ENUM, void *):678: [LK_DDP/unknown][lk ddp_dbi: ddp_dbi_start 678]
+enum DBI_STATUS DBI_DumpRegisters(enum DISP_MODULE_ENUM, int):98: [LK_DDP/unknown][lk ddp_dbi: DBI_DumpRegisters 98]
+int dpmgr_path_trigger(void *, void *, int):645: [LK_DDP/ddp_manager]dpmgr_path_trigger on scenario primary_bypass_pq_dbi
+int ddp_mutex_enable_l(int, void *):849: [LK_DDP/ddp_path]mutex 0 enable
+int ddp_mutex_enable_l(int, void *):853: [LK_DDP/ddp_path]DISP_REG_CONFIG_MUTEX0_EN, addr=0x54001020, value=0
+int ddp_dbi_trigger(enum DISP_MODULE_ENUM, void *):694: [DISP]func|ddp_dbi_trigger
+int ddp_dbi_trigger(enum DISP_MODULE_ENUM, void *):695: [LK_DDP/unknown][lk ddp_dbi: ddp_dbi_trigger 695]
+int disp_lcm_is_video_mode(struct disp_lcm_handle *):883: [DISP]func|disp_lcm_is_video_mode
+int disp_lcm_is_video_mode(struct disp_lcm_handle *):891: [DISP]lcm_param->type:0
+int disp_lcm_display_on(struct disp_lcm_handle *):929: [DISP]func|disp_lcm_display_on
+lcm_display_on, is_display_on:0
+Set lcm display ON
+void lcm_send_cmd(unsigned int):142: [LK_DDP/unknown][lk ddp_dbi: lcm_send_cmd 0x29, ctrl=1]
+[PROFILE] ::: arc_disp_show_boot_logo() takes 283 ms
+ENV SIG of area 0 not found, it is empty now
+ENV SIG of area 1 not found, it is empty now
+[PROFILE] ::: env_init() takes 1 ms
+initializing target
+INIT: cpu 0, calling hook 0x84009e71 (atf_log) at level 0x90000, flags 0x1
+void mblock_merge(void):211: mblock[8]->start: 0x80000000, end: 0xbffff000
+void mblock_merge(void):213: mblock[9]->start: 0xbffff000, end: 0xbffff000
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0xbff70000, sz: 0x80000 map:0 name:atf-ramdump-memory
+ATF: ram dump address hi:0x0, address lo:0xbff70000, size hi:0, size lo:524288
+INFO:    [ATF](0)[7.266858]Get ATF log buffer info. for AEE dump in LK.
+INFO:    [ATF](0)[7.267648]Buf addr:0x43e14000, buf size:131072, flag addr:0x43e0002c, flag value:0x41544641
+ATF: log_buf_addr = 0x43e14000, log_buf_size = 0x20000, crash_flag_addr = 0x43e0002c
+ATF: footprint hi_addr = 0x0, low_addr = 0x43e13800, buf_size = 0x800
+ATF: LAST BUFF
+calling apps_init()
+INIT: cpu 0, calling hook 0x840089e9 (init_mboot_params_late) at level 0xa0000, flags 0x1
+kedump: last is not full pmic reset!
+kedump: normal flow
+INIT: cpu 0, calling hook 0x8400aab3 (dynamic_log) at level 0xa0000, flags 0x1
+INIT: cpu 0, calling hook 0x84009ad9 (init_mrdump_params) at level 0xaffff, flags 0x1
+int aee_check_enable(void):139: enable 0
+INIT: cpu 0, calling hook 0x84009b09 (init_mrdump_reserve_memory) at level 0xaffff, flags 0x1
+int aee_check_enable(void):139: enable 0
+int mblock_free_with_size(u64, u64):744: start 42b00000 size: 100000
+int mblock_free_with_size(u64, u64):744: start 42a00000 size: 100000
+[DEVINFO]Get boot_mode start[DEVINFO]Get boot_mode:
+void notify_boot_linux(void):558: Notify boot linux.
+[PROFILE] ::: mt_boot_init takes 7 ms
+starting app fastboot
+void wait_for_enter_fastboot(void):81: Wait for enter fastboot event...
+starting app mt_boot
+void wait_for_boot_linux(void):564: Wait for boot linux event...
+void wait_for_boot_linux(void):567: Ready to boot linux...
+[LK_AB] READ_PARTITION
+load_vfy_boot part_name=boot_a
+INIT: cpu 0, calling hook 0x8400a19b (bootctrl) at level 0xb0000, flags 0x1
+[LK_AB] READ_PARTITION
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+img_auth_required = 1
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] boot_a cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image mt6890 header auth pass
+[SBC] image mt6890 auth pass
+[PROFILE] ::: load boot image takes 328 ms
+int boot_linux_fdt(void *, unsigned int *, unsigned int, void *, unsigned int):218: kernel_sz=0x00a2a8a3
+void mblock_merge(void):193: mblock[2]->start: 0x42972000, end: 0x42a00000
+void mblock_merge(void):195: mblock[3]->start: 0x42a00000, end: 0x42c00000
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0x42f00000, sz: 0x100000 map:0 name:mb_dtb
+int load_partition(const char *, const char *, void *):131: Partition [dtbo] is not exist.
+int boot_linux_fdt(void *, unsigned int *, unsigned int, void *, unsigned int):306: dtbo_size=0
+int boot_linux_fdt(void *, unsigned int *, unsigned int, void *, unsigned int):323: load_dtbo fail, fdt size(524288)
+void mblock_merge(void):219: Delete mblock[4]->start: 0x43000000, size: 0x0
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0x40080000, sz: 0x2800000 map:0 name:mb_kernel
+void io_task_start(void *):101: io_task_start fdt=0x0x82f00000, mode=0
+load scp fail!
+[PROFILE] ::: load scp takes 0 ms
+void mblock_merge(void):219: Delete mblock[1]->start: 0x42880000, size: 0x0
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0x77ff0000, sz: 0x10000 map:0 name:SPM-reserved
+[LK_AB] READ_PARTITION
+int boot_linux_fdt(int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : spmfw
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 9571
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (9571)
+void *, unsigned int *, unsigned int, void *[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+, unsigned int):388: decompress kernel image...
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] spmfw cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image spmfw header auth pass
+[SBC] image spmfw auth pass
+INFO:    [ATF](0)[11.829443]11#@# spm_firmware_init(634) spm_base_addr 0x77ff0000, spm_base_size 0x10000
+INFO:    [ATF](0)[11.830592]#@# spm_load_pcm_firmware(428) use spmfw partition for spm_firmware.bin - suspend_V2_17
+int mblock_free_with_size(u64, u64):744: start 77ff0000 size: 10000
+[PROFILE] ::: load spm takes 27 ms
+free_in_kernel = 1
+Enter load_modem_image v2.0
+get limit and align weak func
+void mblock_merge(void):193: mblock[6]->start: 0x5ff80000, end: 0x78000000
+void mblock_merge(void):195: mblock[7]->start: 0x78000000, end: 0x7fdb0000
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0xbff60000, sz: 0x10000 map:1 name:ccci_tag_mem
+ccci_request_named_mem: ret = 0 no error
+mblock_alloc(sz=0x10000, ali=0x1000, lim=0xc0000000, exp=0x0, name=ccci_tag_mem)=>0xbff60000,0x40042000
+pin is 142,gpio value first is 0,second is 0
+pin is 143,gpio value first is 0,second is 0
+fibo_rf_set_table[i].set_index is 0
+-- MD1 --
+get limit and align weak func
+void mblock_merge(void):219: Delete mblock[9]->start: 0xbff70000, size: 0x0
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0xae000000, sz: 0x10000000 map:1 name:md1rom
+ccci_request_named_mem: ret = 0 no error
+mblock_alloc(sz=0x10000000, ali=0x2000000, lim=0xc0000000, exp=0x0, name=md1rom)=>0xae000000,0x60000000
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : md1rom
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 29175168
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (29175168)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SEC] No need to fill MD1 pubk hash.
+[SBC] md1rom cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image md1rom header auth pass
+[PROFILE] ::: decompress_kernel takes 434 ms
+int mblock_free_with_size(u64, u64):744: start 40080000 size: 2800000
+int mblock_free_with_size(u64, u64):744: start 42f00000 size: 100000
+Wait for io_task
+[SBC] image md1rom auth pass
+MD main image size: 29175168
+ccci_get_md_header tail_addr[0x61bd2d80]
+ccci_get_md_header check headr v1(188), v3(284), v5(344), v6(512) curr(512)
+===== Dump v6 md header =====
+[LK_LD_MD] MD IMG  - Magic          : CHECK_HEADER
+[LK_LD_MD] MD IMG  - header_verno   : 0x00000006
+[LK_LD_MD] MD IMG  - product_ver    : 0x00000002
+[LK_LD_MD] MD IMG  - image_type     : 0x0000000D
+[LK_LD_MD] MD IMG  - mem_size       : 0x10000000
+[LK_LD_MD] MD IMG  - md_img_size    : 0x01D0AD1C
+[LK_LD_MD] MD IMG  - dsp offset     : 0x0F500000
+[LK_LD_MD] MD IMG  - dsp size       : 0x00B00000
+[LK_LD_MD] MD IMG  - rpc_sec_mem_addr : 0x00000000
+[LK_LD_MD] MD IMG  - armv7 offset   : 0xCDCDCDAA
+[LK_LD_MD] MD IMG  - armv7 size     : 0x00000000
+[LK_LD_MD] MD IMG  - region num     : 0x00000004
+[LK_LD_MD] MD IMG  - ap_md_smem_size: 0x00000000
+[LK_LD_MD] MD IMG  - md_md_smem_size: 0x00000000
+[LK_LD_MD] MD IMG  - amms_pos_size  : 0x00000000
+[LK_LD_MD] MD IMG  - region[0] off : 0x00000000
+[LK_LD_MD] MD IMG  - region[0] size: 0x02300000
+[LK_LD_MD] MD IMG  - region[1] off : 0x02300000
+[LK_LD_MD] MD IMG  - region[1] size: 0x00500000
+[LK_LD_MD] MD IMG  - region[2] off : 0x02800000
+[LK_LD_MD] MD IMG  - region[2] size: 0x04D50000
+[LK_LD_MD] MD IMG  - region[3] off : 0x07550000
+[LK_LD_MD] MD IMG  - region[3] size: 0x08AB0000
+[LK_LD_MD] MD IMG  - region[4] off : 0x00000000
+[LK_LD_MD] MD IMG  - region[4] size: 0x00000000
+[LK_LD_MD] MD IMG  - region[5] off : 0x00000000
+[LK_LD_MD] MD IMG  - region[5] size: 0x00000000
+[LK_LD_MD] MD IMG  - region[6] off : 0x00000000
+[LK_LD_MD] MD IMG  - region[6] size: 0x00000000
+[LK_LD_MD] MD IMG  - region[7] off : 0x00000000
+[LK_LD_MD] MD IMG  - region[7] size: 0x00000000
+[LK_LD_MD] MD IMG  - domain_attr[0] : 0xFFFFFFFF
+[LK_LD_MD] MD IMG  - domain_attr[1] : 0xFFFFFFFF
+[LK_LD_MD] MD IMG  - domain_attr[2] : 0xFFFFFFFF
+[LK_LD_MD] MD IMG  - domain_attr[3] : 0xFFFFFFFF
+[LK_LD_MD] MD IMG  - padding info[0] offset: 0x0A230000
+[LK_LD_MD] MD IMG  - padding info[0] size: 0x03320000
+[LK_LD_MD] MD IMG  - padding info[1] offset: 0x01D10000
+[LK_LD_MD] MD IMG  - padding info[1] size: 0x005F0000
+[LK_LD_MD] MD IMG  - padding info[2] offset: 0x02420000
+[LK_LD_MD] MD IMG  - padding info[2] size: 0x003E0000
+[LK_LD_MD] MD IMG  - padding info[3] offset: 0x08060000
+[LK_LD_MD] MD IMG  - padding info[3] size: 0x000A0000
+[LK_LD_MD] MD IMG  - padding info[4] offset: 0x08190000
+[LK_LD_MD] MD IMG  - padding info[4] size: 0x00010000
+[LK_LD_MD] MD IMG  - padding info[5] offset: 0x08170000
+[LK_LD_MD] MD IMG  - padding info[5] size: 0x00010000
+[LK_LD_MD] MD IMG  - padding info[6] offset: 0x00000000
+[LK_LD_MD] MD IMG  - padding info[6] size: 0x00000000
+[LK_LD_MD] MD IMG  - padding info[7] offset: 0x00000000
+[LK_LD_MD] MD IMG  - padding info[7] size: 0x00000000
+[LK_LD_MD] MD IMG  - drdi offset    : 0x01BD2A9C
+[LK_LD_MD] MD IMG  - drdi size      : 0x00138280
+[LK_LD_MD] Runtime - drdi rt offset : 0x0A190000
+[LK_LD_MD] Runtime - drdi rt size   : 0x0008ABA0
+=============================
+[ccci]parse check-header: nv_cache_size = 0x700000
+ccci_get_md_header tail_addr[0x61bd2d80]
+ccci_get_md_header check headr v1(188), v3(284), v5(344), v6(512) curr(512)
+padding_with_additional_num:4 with mpu_num:2
+MPU region not enough, cancel to retrieve padding(offset):0x08190000 ~ 0x081a0000
+MPU region not enough, cancel to retrieve padding(offset):0x08170000 ~ 0x08180000
+retrieve_blk_num: 4
+== Get retrieve 0xa230000~0xd54ffff =======
+[0x67550000~0x6fffffff] ==>
+[0x67550000-Reserved-0x6a22ffff|0x6a230000-Retrieve-00x6d54ffff|0x6d550000-Reserved-0x6fffffff]
+  0x3320000B retrieved by AP
+== Get retrieve 0x1d10000~0x22fffff =======
+[0x60000000~0x622fffff] ==>
+[0x60000000-Reserved-0x61d0ffff|0x61d10000-Retrieve-0x622fffff]
+  0x5f0000B retrieved by AP
+== Get retrieve 0x2420000~0x27fffff =======
+[0x62300000~0x627fffff] ==>
+[0x62300000-Reserved-0x6241ffff|0x62420000-Retrieve-0x627fffff]
+  0x3e0000B retrieved by AP
+== Get retrieve 0x8060000~0x80fffff =======
+[0x67550000~0x6a22ffff] ==>
+[0x67550000-Reserved-0x6805ffff|0x68060000-Retrieve-00x680fffff|0x68100000-Reserved-0x6a22ffff]
+  0xa0000B retrieved by AP
+mt_secure_call: set_addr = 0xae000000, get_addr = 0xae000000
+---> Map 0x00000000 to 0xae000000 for MD1
+BANK0_MAP0 value:0x5916057
+BANK0_MAP1 value:0x5C16C5A
+BANK0_MAP2 value:0x1785D
+BANK1_MAP0 value:0x1785D
+BANK1_MAP1 value:0x0
+BANK1_MAP2 value:0x5E1745C
+BANK1_MAP3 value:0x0
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : md1dsp
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 5942276
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (5942276)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] md1dsp cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image md1dsp header auth pass
+[SBC] image md1dsp auth pass
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : md1rom
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 29175168
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : md1drdi
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1278592
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (1278592)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] md1drdi cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image md1drdi header auth pass
+[SBC] image md1drdi auth pass
+arch_sync_cache_range: addr[0x60000000], size[0x10000000]
+get limit and align weak func
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0x8e000000, sz: 0x500000 map:0 name:md_smem_ncache
+ccci_request_named_mem: ret = 0 no error
+mblock_alloc(sz=0x500000, ali=0x2000000, lim=0x90000000, exp=0x0, name=md_smem_ncache)=>0x8e000000,0x402f0000
+env[apmd1_smem]0.
+smem_info.base_addr: 0x8e000000
+smem_info.ap_md1_smem_offset: 0x0
+smem_info.ap_md1_smem_size: 0x500000
+smem_info.total_smem_size: 500000
+md1 phy capture size: 0
+NV cache size adjust to: 0x700000
+[C] before align: 0x67a0000
+get limit and align weak func
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0x86000000, sz: 0x67a0000 map:0 name:md_smem_cache
+ccci_request_named_mem: ret = 0 no error
+mblock_alloc(sz=0x67a0000, ali=0x2000000, lim=0x90000000, exp=0x0, name=md_smem_cache)=>0x86000000,0x407f0000
+cache_buffer_addr: 86000000
+cache_buffer_size: 67a0000
+cache_buffer_itm_cnt: 5
+cache[0]_buffer_addr: 86000000
+cache[0]_buffer_offset: 0
+cache[0]_buffer_size: 2000000
+cache[1]_buffer_addr: 88000000
+cache[1]_buffer_offset: 2000000
+cache[1]_buffer_size: 700000
+cache[2]_buffer_addr: 88700000
+cache[2]_buffer_offset: 2700000
+cache[2]_buffer_size: 4000000
+cache[3]_buffer_addr: 8c700000
+cache[3]_buffer_offset: 6700000
+cache[3]_buffer_size: 40000
+cache[4]_buffer_addr: 8c740000
+cache[4]_buffer_offset: 6740000
+cache[4]_buffer_size: 60000
+ccb_info.ccb_data_buffer_addr: 88700000
+ccb_info.ccb_data_buffer_size: 4000000
+smem_info.total_smem_size: 500000
+ap md1 share mem MPU need configure
+ccci mem_access_cfg, start to set protection 10
+LK emi_mpu_set_protection start:ae000000 end=afd0ffff region=10 apc1=b6db6dapc0=8096db64
+ccci mem_access_cfg, end to set protection 10
+Set MPU:S:0xae000000 E:0xafd0ffff A:<10>[0~15]4-4-5-5-5-5-5-4-5-5-5-5-5-5-5-5(U)
+ccci mem_access_cfg, start to set protection 16
+LK emi_mpu_set_protection start:b0300000 end=b041ffff region=16 apc1=b6db6dapc0=8016db64
+ccci mem_access_cfg, end to set protection 16
+Set MPU:S:0xb0300000 E:0xb041ffff A:<16>[0~15]4-4-5-5-5-5-5-0-5-5-5-5-5-5-5-5(U)
+ccci mem_access_cfg, start to set protection 15
+LK emi_mpu_set_protection start:b0800000 end=b554ffff region=15 apc1=b6db6dapc0=8096db44
+ccci mem_access_cfg, end to set protection 15
+Set MPU:S:0xb0800000 E:0xb554ffff A:<15>[0~15]4-0-5-5-5-5-5-4-5-5-5-5-5-5-5-5(U)
+ccci mem_access_cfg, start to set protection 14
+LK emi_mpu_set_protection start:b5550000 end=b605ffff region=14 apc1=b6db6dapc0=8016db44
+ccci mem_access_cfg, end to set protection 14
+Set MPU:S:0xb5550000 E:0xb605ffff A:<14>[0~15]4-0-5-5-5-5-5-0-5-5-5-5-5-5-5-5(U)
+ccci mem_access_cfg, start to set protection 20
+LK emi_mpu_set_protection start:bb550000 end=bdffffff region=20 apc1=b6db6dapc0=8016db44
+ccci mem_access_cfg, end to set protection 20
+Set MPU:S:0xbb550000 E:0xbdffffff A:<20>[0~15]4-0-5-5-5-5-5-0-5-5-5-5-5-5-5-5(U)
+ccci mem_access_cfg, start to set protection 21
+LK emi_mpu_set_protection start:b6100000 end=b822ffff region=21 apc1=b6db6dapc0=8016db44
+ccci mem_access_cfg, end to set protection 21
+Set MPU:S:0xb6100000 E:0xb822ffff A:<21>[0~15]4-0-5-5-5-5-5-0-5-5-5-5-5-5-5-5(U)
+ccci mem_access_cfg, start to set protection 13
+LK emi_mpu_set_protection start:b8190000 end=b821ffff region=13 apc1=b6db6dapc0=8096db64
+ccci mem_access_cfg, end to set protection 13
+Set MPU:S:0xb8190000 E:0xb821ffff A:<13>[0~15]4-4-5-5-5-5-5-4-5-5-5-5-5-5-5-5(U)
+ccci mem_access_cfg, start to set protection 25
+LK emi_mpu_set_protection start:8e000000 end=8e4fffff region=25 apc1=b6db6dapc0=16d140
+ccci mem_access_cfg, end to set protection 25
+Set MPU:S:0x8e000000 E:0x8e4fffff A:<25>[0~15]0-0-5-0-5-5-5-0-5-5-5-5-5-5-5-5(U)
+ccci mem_access_cfg, start to set protection 24
+LK emi_mpu_set_protection start:86000000 end=8c79ffff region=24 apc1=b6da2dapc0=16db40
+ccci mem_access_cfg, end to set protection 24
+Set MPU:S:0x86000000 E:0x8c79ffff A:<24>[0~15]0-0-5-5-5-5-5-0-5-5-0-5-5-5-5-5(U)
+LK emi_mpu_set_protection start:8c700000 end=8c73ffff region=23 apc1=b6db6dapc0=16da00
+Set MPU:S:0x8c700000 E:0x8c73ffff A:<23>[0~15]0-0-0-5-5-5-5-0-5-5-5-5-5-5-5-5(U)(CONSYS)
+---> Map 0x40000000 to 0x8e000000 for MD1
+BANK4_MAP(0) value:0x4700000
+BANK4_MAP(1) value:0x48
+BANK4_MAP(2) value:0x12448
+---> Map 0x40000000+0x6000000 to 0x86000000 for MD1
+BANK4_MAP(3) value:0x4312448
+BANK4_MAP(4) value:0x44
+BANK4_MAP(5) value:0x11444
+BANK4_MAP(6) value:0x4611444
+BANK4_MAP(7) value:0x47
+[ccci-on]load_md_image = 0
+lk info.lk_info_base_addr: 0x40042000
+lk info.lk_info_base_addr_phy: 0xbff60000
+lk info.lk_info_size:      0xa10
+lk info.lk_info_tag_num:   0x13
+[MD1 Baseband version] 81103.7000.30.03.01.17.2(24)
+[MD3 Baseband version] 81103.7000.30.03.01.17.2(-1)
+md_power_control=1md_power_onMD srcclkena setting:0x1006321
+MD srcclkena SRCLKEN_O1 Status:0x5b
+MD1 MTCMOS power on done!
+Trigger MD run
+md_power_value=0, HW code =0x1, SW_version=0x10992
+[PROFILE] ::: load modem image takes 1278 ms
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0x9ff00000, sz: 0x40000 map:0 name:MEDMCU-reserved
+int verify_load_medmcu_image(const char *, void *, void *):68: netsys on: 0 and delay 1ms for MED HW design
+dump_med_netsys_power_clk_regs: IO_BASE=0x50000000
+dump_med_netsys_power_clk_regs:REG_0x1000616c=0xf3191a89, REG_0x100000A0=0x00040407
+dump_med_netsys_power_clk_regs:REG_0x100000C0=0x04010101, REG_0x100000D0=0x01010404
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : tinysys-medmcu-RV33_A
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 86992
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (86992)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] tinysys-medmcu-RV33_A cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image tinysys-medmcu-RV33_A header auth pass
+[SBC] image tinysys-medmcu-RV33_A auth pass
+int verify_load_medmcu_image(const char *, void *, void *):149: MEDMCU: sram size=131072 bytes
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : tinysys-medmcu-RV33_A
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 86992
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 6264
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (6264)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] medhw-gc0-pm cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image medhw-gc0-pm header auth pass
+[SBC] image medhw-gc0-pm auth pass
+int verify_load_medmcu_image(const char *, void *, void *):165: MEDMCU: load_medhw_gc0_pm_image medhw-gc0-pm 6264 bytes
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : tinysys-medmcu-RV33_A
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 86992
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 6264
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-dm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4096
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (4096)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] medhw-gc0-dm cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image medhw-gc0-dm header auth pass
+[SBC] image medhw-gc0-dm auth pass
+int verify_load_medmcu_image(const char *, void *, void *):176: MEDMCU: load_medhw_gc0_dm_image medhw-gc0-dm 4096 bytes
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : tinysys-medmcu-RV33_A
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 86992
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 6264
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-dm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4096
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc1-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4756
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (4756)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] medhw-gc1-pm cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image medhw-gc1-pm header auth pass
+[SBC] image medhw-gc1-pm auth pass
+int verify_load_medmcu_image(const char *, void *, void *):188: MEDMCU: load_medhw_gc1_pm_image medhw-gc1-pm 4756 bytes
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : tinysys-medmcu-RV33_A
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 86992
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 6264
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-dm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4096
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc1-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4756
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc1-dm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4096
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (4096)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] medhw-gc1-dm cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image medhw-gc1-dm header auth pass
+[SBC] image medhw-gc1-dm auth pass
+int verify_load_medmcu_image(const char *, void *, void *):199: MEDMCU: load_medhw_gc1_dm_image medhw-gc1-dm 4096 bytes
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : tinysys-medmcu-RV33_A
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 86992
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 6264
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-dm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4096
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc1-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4756
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc1-dm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4096
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc2-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4008
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (4008)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] medhw-gc2-pm cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image medhw-gc2-pm header auth pass
+[SBC] image medhw-gc2-pm auth pass
+int verify_load_medmcu_image(const char *, void *, void *):211: MEDMCU: load_medhw_gc2_pm_image medhw-gc2-pm 4008 bytes
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : tinysys-medmcu-RV33_A
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 86992
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 6264
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc0-dm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4096
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc1-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4756
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc1-dm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4096
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc2-pm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4008
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : medhw-gc2-dm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 4096
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (4096)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] medhw-gc2-dm cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image medhw-gc2-dm header auth pass
+[SBC] image medhw-gc2-dm auth pass
+int verify_load_medmcu_image(const char *, void *, void *):222: MEDMCU: load_medhw_gc2_dm_image medhw-gc2-dm 4096 bytes
+int verify_load_medmcu_image(const char *, void *, void *):231: medmcu_region_info->ap_loader_start 0x9ff00000
+int verify_load_medmcu_image(const char *, void *, void *):233: medmcu_region_info->ap_loader_size 0x2000
+int verify_load_medmcu_image(const char *, void *, void *):235: medmcu_region_info->ap_firmware_start 0x9ff02000
+int verify_load_medmcu_image(const char *, void *, void *):237: medmcu_region_info->ap_firmware_size 0x153d0
+int verify_load_medmcu_image(const char *, void *, void *):239: medmcu_region_info->ap_medhw_gc0_pm_start 0x9ff20000
+int verify_load_medmcu_image(const char *, void *, void *):241: medmcu_region_info->ap_medhw_gc0_pm_size 0x1878
+int verify_load_medmcu_image(const char *, void *, void *):243: medmcu_region_info->ap_medhw_gc0_dm_start 0x9ff21878
+int verify_load_medmcu_image(const char *, void *, void *):245: medmcu_region_info->ap_medhw_gc0_dm_size 0x1000
+int verify_load_medmcu_image(const char *, void *, void *):247: medmcu_region_info->ap_medhw_gc1_pm_start 0x9ff22878
+int verify_load_medmcu_image(const char *, void *, void *):249: medmcu_region_info->ap_medhw_gc1_pm_size 0x1294
+int verify_load_medmcu_image(const char *, void *, void *):251: medmcu_region_info->ap_medhw_gc1_dm_start 0x9ff23b0c
+int verify_load_medmcu_image(const char *, void *, void *):253: medmcu_region_info->ap_medhw_gc1_dm_size 0x1000
+int verify_load_medmcu_image(const char *, void *, void *):255: medmcu_region_info->ap_medhw_gc2_pm_start 0x9ff24b0c
+int verify_load_medmcu_image(const char *, void *, void *):257: medmcu_region_info->ap_medhw_gc2_pm_size 0xfa8
+int verify_load_medmcu_image(const char *, void *, void *):259: medmcu_region_info->ap_medhw_gc2_dm_start 0x9ff25ab4
+int verify_load_medmcu_image(const char *, void *, void *):261: medmcu_region_info->ap_medhw_gc2_dm_size 0x1000
+int verify_load_medmcu_image(const char *, void *, void *):263: medmcu_region_info->medmcuctl 0x0
+LK emi_mpu_set_protection start:9ff00000 end=9ff3ffff region=6 apc1=b6db6dapc0=b6d168
+[PROFILE] ::: load medmcu takes 599 ms
+u64 mblock_alloc(u64, u64, u64, u64, u32, const char *):421: start: 0xbfc50000, sz: 0x190000 map:0 name:DPM-reserved
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : dpmpm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 14224
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (14224)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] dpmpm cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image dpmpm header auth pass
+[SBC] image dpmpm auth pass
+[LK_AB] READ_PARTITION
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : dpmpm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 14224
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert1
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1709
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : cert2
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 969
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):62: =========================================
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):63: magic number : 0x58881688
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):64: name         : dpmdm
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):65: size         : 1032
+int load_mkimg_part_info(bdev_t *, const char *, union mkimg_hdr *, off_t *):66: =========================================
+int load_partition(const char *, const char *, void *):152: mkimg hdr detected (1032)
+[SEC_POLICY] sboot_state = 0x1
+[SEC_POLICY] lock_state = 0x1
+int load_partition(const char *, const char *, void *):162: img_auth_required = 1
+Image name matched
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] dpmdm cert chain vfy pass
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[SBC] image dpmdm header auth pass
+[SBC] image dpmdm auth pass
+int mblock_free_with_size(u64, u64):744: start bfc50000 size: 190000
+[PROFILE] ::: load dpm takes 66 ms
+[LK_AB] READ_PARTITION
+[SBC] sbc_en = 1
+[SBC] sbc_en = 1
+[SBC] ROOTFS_SIG_VFY Success
+[ver]ver:(verk,verc,otp)=(0, 0, 0) ok
+[PROFILE] ::: load rootfs_sig takes 10 ms
+Wake up boottrap2
+io_task is done
+int mblock_free_with_size(u64, u64):744: start 42971000 size: 1000
+crypto_hw_engine_disable ok
+int setup_mem_property_use_mblock_info(void *):1190:  mem_start=0x40000000 mem_sz=0x80000000
+int setup_mem_property_use_mblock_info(void *):1191:  mem_reg_property.start_hi = 0x00000000
+int setup_mem_property_use_mblock_info(void *):1192:  mem_reg_property.start_lo = 0x00000040
+int setup_mem_property_use_mblock_info(void *):1193:  mem_reg_property.size_hi  = 0x00000000
+int setup_mem_property_use_mblock_info(void *):1194:  mem_reg_property.size_lo  = 0x00000080
+void mblock_show_internal(int):114: mblock_magic:0x99999999 mblock_version:0x2
+void mblock_show_internal(int):124: mblock[0]->start: 0x40000000, size: 0x2880000
+void mblock_show_internal(int):124: mblock[1]->start: 0x42970000, size: 0x1000
+void mblock_show_internal(int):124: mblock[2]->start: 0x42971000, size: 0x28f000
+void mblock_show_internal(int):124: mblock[3]->start: 0x42e00000, size: 0x200000
+void mblock_show_internal(int):124: mblock[4]->start: 0x43200000, size: 0xc00000
+void mblock_show_internal(int):124: mblock[5]->start: 0x43e40000, size: 0x1c0c0000
+void mblock_show_internal(int):124: mblock[6]->start: 0x5ff80000, size: 0x1fe30000
+void mblock_show_internal(int):124: mblock[7]->start: 0x7ffb0000, size: 0xf000
+void mblock_show_internal(int):124: mblock[8]->start: 0x80000000, size: 0x6000000
+void mblock_show_internal(int):124: mblock[9]->start: 0x8c7a0000, size: 0x1860000
+void mblock_show_internal(int):124: mblock[10]->start: 0x8e500000, size: 0x11a00000
+void mblock_show_internal(int):124: mblock[11]->start: 0x9ff40000, size: 0xe0c0000
+void mblock_show_internal(int):124: mblock[12]->start: 0xbe000000, size: 0x1de0000
+void mblock_show_internal(int):124: mblock[13]->start: 0xbfde0000, size: 0x180000
+void mblock_show_internal(int):124: mblock[14]->start: 0xbfff0000, size: 0xf000
+void mblock_show_internal(int):136: mblock-R[0].start: 0xbffff000, size: 0x1000 map:0 name:dramc-rk0
+void mblock_show_internal(int):136: mblock-R[1].start: 0x7ffff000, size: 0x1000 map:0 name:emi_mbist_buf
+void mblock_show_internal(int):136: mblock-R[2].start: 0x7ffbf000, size: 0x40000 map:1 name:log_store
+void mblock_show_internal(int):136: mblock-R[3].start: 0x42c00000, size: 0x200000 map:0 name:atf-reserved
+void mblock_show_internal(int):136: mblock-R[4].start: 0x43e00000, size: 0x40000 map:0 name:atf-log-reserved
+void mblock_show_internal(int):136: mblock-R[5].start: 0x7feb0000, size: 0x100000 map:0 name:SSPM-reserved
+void mblock_show_internal(int):136: mblock-R[6].start: 0x7fdb0000, size: 0x100000 map:0 name:MCUPM-reserved
+void mblock_show_internal(int):136: mblock-R[7].start: 0x5ff00000, size: 0x80000 map:0 name:PICACHU
+void mblock_show_internal(int):136: mblock-R[8].start: 0x42880000, size: 0xe0000 map:0 name:pstore
+void mblock_show_internal(int):136: mblock-R[9].start: 0x42960000, size: 0x10000 map:0 name:minirdump
+void mblock_show_internal(int):136: mblock-R[10].start: 0x43000000, size: 0x200000 map:1 name:aee-lk
+void mblock_show_internal(int):136: mblock-R[11].start: 0xbff70000, size: 0x80000 map:0 name:atf-ramdump-memory
+void mblock_show_internal(int):136: mblock-R[12].start: 0xbff60000, size: 0x10000 map:1 name:ccci_tag_mem
+void mblock_show_internal(int):136: mblock-R[13].start: 0xae000000, size: 0x10000000 map:1 name:md1rom
+void mblock_show_internal(int):136: mblock-R[14].start: 0x8e000000, size: 0x500000 map:0 name:md_smem_ncache
+void mblock_show_internal(int):136: mblock-R[15].start: 0x86000000, size: 0x67a0000 map:0 name:md_smem_cache
+void mblock_show_internal(int):136: mblock-R[16].start: 0x9ff00000, size: 0x40000 map:0 name:MEDMCU-reserved
+void mblock_show_internal(int):140: Total DRAM = 0x80000000
+void mblock_fdt_reserved_append(void *):1122: mblock-reserved-memory is appended successfully
+void set_fdt(void *):34: runs set_fdt_atag_boot hook function
+void set_fdt(void *):34: runs set_fdt_firmware hook function
+cannot find /firmware/android!
+void set_fdt(void *):34: runs set_fdt_usb_serialno hook function
+void set_fdt(void *):34: runs set_fdt_atag_meta hook function
+void set_fdt(void *):34: runs mboot_params_dts_write hook function
+[MBOOT_PARAMS]. [0x11d000,0x800,0x1,0xec0]
+[MBOOT_PARAMS]. log_store [0x11df00,0x100]
+void set_fdt(void *):34: runs mrdump_key_fdt_init hook function
+int mrdump_get_env(const char *, char *, int):66: unknown mrdump config signature
+int mrdump_key_default_state(void):63: mrdump_key_default_state: mrdump_get_env fail
+void set_fdt(void *):34: runs mrdump_params_fdt_init hook function
+int aee_check_enable(void):139: enable 0
+void set_fdt(void *):34: runs set_fdt_dramc hook function
+void set_fdt_dramc(void *):98: offset = 86768
+void set_fdt_dramc(void *):99: dram_type original data = 6
+void set_fdt(void *):34: runs set_fdt_emi_info hook function
+void set_fdt(void *):34: runs mt_disp_config_frame_buffer hook function
+void set_fdt(void *):34: runs platform_fdt_set_chipid hook function
+void set_fdt(void *):34: runs platform_atag_devinfo_data hook function
+SSSS:0x0
+SSSS:0x0
+SSSS:0x0
+SSSS:0x0
+SSSS:0x0
+SSSS:0x992
+SSSS:0x0
+SSSS:0x2
+void set_fdt(void *):34: runs platform_fdt_set_model hook function
+segment not support
+void set_fdt(void *):34: runs ccci_update_md_arg_info_to_dt hook function
+[ccci] create modem arguments info FDT OK
+void set_fdt(void *):34: runs rootfs_sig_hock hook function
+void dump_cmdline(void *):75: cmdline len=395, str=" 		init=/etc/preinit root=/dev/mmcblk0p28 rootwait 		loglevel=8 		androidboot.selinux=permissive androidboot.hardware=mt6890 		initcall_debug=1 page_owner=on ramoops.mem_address=0x42880000 ramoops.mem_size=0xe0000 ramoops.pmsg_size=0x10000 ramoops.console_size=0x40000 mtk_printk_ctrl.disable_uart=0 bootslot=a  androidboot.hardware=mt6890 bootprof.pl_t=4727 bootprof.logo_t=0 bootprof.lk_t=7882"
+int boot_linux_fdt(void *, unsigned int *, unsigned int, void *, unsigned int):447: booting linux @ 0x40080000, ramdisk @ 0x41000000 (0) dtb @ 0x42f00000 (157158)
+[ver]bypass update
+devapc_protection_enable success!
+smpu_disable success!
+int boot_linux_fdt(void *, unsigned int *, unsigned int, void *, unsigned int):460: lk boot mode = 0
+int boot_linux_fdt(void *, unsigned int *, unsigned int, void *, unsigned int):462: lk finished --> jump to linux kernel 64Bit
+
+void lk_jump64(u32, u32, u32, u32):141: [LK]jump to K64 0x40080000
+void lk_jump64(u32, u32, u32, u32):142: smc jump
+INFO:    [ATF](0)[13.945095]clear_all_on_mux
+INFO:    [ATF](0)[13.945594]SPM: enable CPC mode
+INFO:    [ATF](0)[13.946136]save kernel info
+INFO:    [ATF](0)[13.946635]Kernel_EL 2
+NOTICE:  [ATF](0)[13.947080]Kernel is 64Bit
+NOTICE:  [ATF](0)[13.947568]pc=0x40080000, r0=0x42f00000, r1=0x0
+INFO:    [ATF](0)[13.948284]BL3-1: Preparing for EL3 exit to normal world, Kernel
+INFO:    [ATF](0)[13.949184]BL3-1: Next image address = 0x40080000
+INFO:    [ATF](0)[13.949921]BL3-1: Next image spsr = 0x3c9
+INFO:    [ATF](0)[13.950572]el3_exit
+   

@@ -1,4 +1,5 @@
 # Hardware Hacking T-Mobile's 5G Home Internet Gateway
+
 This repository will serve as a knowledge base for everything I've learned about the T-Mobile 5G Gateway so others can start off not completely in the dark like I had to. 
 
 I've seen alot of posts on the FastMile variant manufactured by Nokia (a.k.a the Trashcan) but not much on the KVD21 from Arcadyan. I'm entirely still a novice at hardware hacking and will most likely end up bricking this thing but I work in the back of a T-Mobile doing repairs and get abandoned or devices for recycle all the time and want to try my hand at hardware hacking the exotic and uncommon devices I come across in my field of work.
@@ -7,13 +8,17 @@ Basic information and a device usage guide can be found here:
 
 https://www.t-mobile.com/support/devices/get-to-know-your-arcadyan-kvd21-gateway
 
-I've decided to structure entries in this journal by date as I'm going to be working mostly on this project (with one or two backup projects started incase I fry my gateway) as I want something eye catching to show off when I go to DEFCON for the first time in August later this year and having root on a 5G femtocell sandwiched to a home internet router that is a major sales focus for a major US carrier would be eye catching to say the least.
+## Important info about this project
+I have decided to put this project on the shelf until a Mediatek bootloader dump script supports the T75 SoC.
 
-Due to the above mentioned change, and the fact that I have already done a good amount of research on the device prior to making this repository, there will be one large starting entry that will serve as the teardown and atleast two entries per week thereafter with a final long entry (provided I actually get root and dont fry the gateway) for the reception of the project following DEFCON 30.
+I tried fuzzing the routers config login page for vulnerabilities and actually got the web server to permanently crash but lost the hard drive to mechanical failure and therefore lost the wordlist i used (which was a few popular command injection wordlists for unix/linux/websites on github combined) and to make matters worse I incorrectly set the options for the command I was using (wfuzz i think) so I did not get to see what string caused the crash. 
+I know the login page is vulnerable but do not know the string to get it to crash and the web server only displays 404s now so I cant continue that avenue. I tried getting a prompt that wasn't locked down and found some scripts for unlocking Mediatek bootloaders. 
+
+The best luck ive had with these scripts is getting the device to switch to EDL but none of the Mediatek software recognizes it and the scripts do not support rom dumps for this SoC yet.
+
+I'm not going to be able to get into this thing until one of the Mediatek bootloader dump scripts adds support for this SoC so in the hopes someone else can do what I could not I have updated the repo with pictures of the full tear down and the logs to the bootloader (normal start, and started with mediatek preloader dump script) obtained through the UART port.
 
 ## The Teardown and Initial Research
-
-Also, all information, files, and other reference materials will eventually make their way on to the repository. The delay will be quite some time though as I have to ensure not to improperly disclose security vulnerabilities and purge personal or sensitive information from the materials and am currently extremely pressed for time so I can't spare much to reviewing material before publication.
 
 The tear down of the device was quite easy after I figured out the right ammount of pressure to apply to the area holding the plastic clips together without breaking the clips.
 
@@ -81,17 +86,10 @@ void dump_cmdline(void *):75: cmdline len=395, str="
 "
 ```
 
-* The gateway is running Android and we can use ADB once we know how to get the gateway into fastboot or download mode. 
-* The modem processor is a Mediatek MT6890/MT6880 T75 based modem SoC package and we will verify this and narrow down the SoC package vendor during a more complete teardown later on. 
+* The gateway is running Android and we can use ADB once we know how to get the gateway into fastboot.
+* The modem processor is a Mediatek MT6890/MT6880 T75 based modem SoC package branded as the Fibrocom FG360-NA.
 * SELinux is set to permissive. 🤣 This means once we have shell access on our gateway, priveledge escalation should be trivial despite Android being the target OS. 
 
-# Week 2 - Jun 29th - Trust But Verify
+## Full Teardown
 
-We start off week two with a bootloader log from a UART port that told us the cpu was an mt6890.
-I looked up the model number and found out from a marketing handout that chip is actually part of an SoC package called the T75 marketed for 5G IoT.
-
-
-I wanted to tear down the device further anyways to thouroughly document the hardware so I will also verify the SoC package during the process.
-
-
-
+Full pictures of the teardown and the logs for the bootloader obtained through UART are available in the repo.
